@@ -1,9 +1,13 @@
 import './App.css';
+import HomePage from './components/HomePage';
+import About from './components/About';
+
 
 function App() {
   return (
     <div >
-      <h1>hello</h1>
+      <HomePage/>
+      <About/>
     </div>
   );
 }
