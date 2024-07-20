@@ -1,17 +1,22 @@
 /* Sections - to ensure every page takes up whole space  */
 
-.section {
+.homepage-section {
     height: 100vh;
-    padding: 30px;
 }
 
-/* HomePage */
+.sections {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+/* HomePage Section */
 
 .header {
     display: flex;
     justify-content: flex-end;
     padding: 60px;
 }
+
 
 .dropdown:hover {
     transform: scale(1.1);
@@ -25,7 +30,7 @@
     width: 100%;
     display: flex;
     gap: 10%;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-bottom: 2%
 }
 
@@ -39,4 +44,27 @@
 
 .nav:hover {
     opacity: 0.1
+}
+
+
+/* About Section */
+#aboutId {
+    display: flex;
+    gap: 53px;
+
+}
+
+.contour-image {
+    height: 80%;
+
+}
+
+.about-right {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 85px;
+}
+
+.column-photo {
+    margin-bottom: 10%;
 }

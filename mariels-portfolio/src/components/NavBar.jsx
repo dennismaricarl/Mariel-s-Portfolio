@@ -1,25 +1,50 @@
-import React from "react";
-import { Link } from 'react-scroll';
+import { useState } from "react"
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
+
+    const [toggle, setToggle] = useState(false)
+
+    const handleClick = () => {
+        setToggle(!toggle)
+    }
+
     return (
-        <div className="navBar">
-            <h1>3 lines here</h1>
+        <div className="navbar">
 
-            <Link
-                activeClass="active"
-                to="aboutId"
-                smooth={true}
-                duration={500}
-            > <h1>ABOUT</h1>
-            </Link>
+            <div className="header">
+                <img
+                    className="dropdown"
+                    onClick={handleClick}
+                    src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
+                    alt="menu-icon" />
+            </div>
 
-            <Link>
-            <h1>PROJECTS</h1>
-            </Link>
-           
+
+            {toggle &&
+
+                <div className="dropdown-content">
+
+                    <Link
+                        activeClass="active"
+                        to="aboutId"
+                        smooth={true}
+                        duration={500}
+                    >
+                        <img className="nav" src="/images/ABOUT.png" />
+                    </Link>
+
+                    <Link>
+                        <img className="nav" src="/images/PROJECTS.png" />
+                    </Link>
+
+                    <img className="nav" src="/images/Envelope.png" />
+                </div>
+            }
+
         </div>
     )
 }
 
-export default NavBar; 
+
+export default NavBar;
