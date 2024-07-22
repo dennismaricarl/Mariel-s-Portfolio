@@ -1,7 +1,7 @@
 const ProjectsList = () => {
 
     const images = [
-        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map" },
+        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map"},
         { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration" },
         { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series" },
         { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural" },
@@ -14,22 +14,22 @@ const ProjectsList = () => {
     return (
 
         <div id="projectsListId" >
-            <h1 style={{ textAlign: 'center' }}>Projects</h1>
+            <h1 style={{ textAlign: 'center', fontSize: '80px' }}>PROJECTS</h1>
 
 
-            <div style={{ display: 'flex' }}>
-                <div style={{ flex: 1 }}>
+            <div style={{ display: 'flex', justifyContent: 'center', gap:'10px' }}>
+                <div>
                     {images.map((img, i) => (
-                        <div key={i} >
-                            <img src={img.image} />
+                        <div className="image" key={i} >
+                            <img style={{ paddingBottom: '23px' }} src={img.image} />
                             <h2>{img.title}</h2>
                         </div>
                     ))}
                 </div>
 
-                <div style={{ flex: 1 }}>
+                <div  style={{ marginTop: '-6rem' }} >
                     {images.map((img, i) => (
-                        <div key={i}>
+                        <div className="image" key={i}>
                             <img src={img.image2} />
                             <h2>{img.title2}</h2>
                         </div>

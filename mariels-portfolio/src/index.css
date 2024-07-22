@@ -68,3 +68,20 @@
 .column-photo {
     margin-bottom: 10%;
 }
+
+
+/* ProjectsList Section */
+.image{
+    cursor: pointer;
+}
+
+
+
+/* Email Section */
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
