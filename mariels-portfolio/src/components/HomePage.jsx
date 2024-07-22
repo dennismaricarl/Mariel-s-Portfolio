@@ -1,5 +1,8 @@
 import { useState } from "react"
-import { Link } from 'react-scroll'
+import { Link as ScrollLink } from "react-scroll";
+import About from "./About";
+import ProjectsList from "./ProjectsList";
+import Email from "./Email";
 
 const HomePage = () => {
 
@@ -25,32 +28,32 @@ const HomePage = () => {
 
                 <div className="dropdown-content">
 
-                    <Link
+                    <ScrollLink
                         activeClass="active"
                         to="aboutId"
                         smooth={true}
                         duration={500}
                     >
                         <img className="nav" src="/images/ABOUT.png" />
-                    </Link>
+                    </ScrollLink>
 
-                    <Link
+                    <ScrollLink
                         activeClass="active"
                         to="projectsListId"
                         smooth={true}
                         duration={500}
                     >
                         <img className="nav" src="/images/PROJECTS.png" />
-                    </Link>
+                    </ScrollLink>
 
-                    <Link
+                    <ScrollLink
                         activeClass="active"
                         to="emailId"
                         smooth={true}
                         duration={500}
                     >
                         <img className="nav" src="/images/Envelope.png" />
-                    </Link>
+                    </ScrollLink>
                 </div>
             }
 
@@ -58,6 +61,12 @@ const HomePage = () => {
                 <img src="/images/mariel.png" />
                 <img src="/images/trujillo.png" />
             </div>
+
+
+            <About />
+            <ProjectsList />
+            <Email />
+
 
         </div>
     )

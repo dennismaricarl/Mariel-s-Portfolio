@@ -1,7 +1,10 @@
+import {useNavigate} from 'react-router-dom';
+
 const ProjectsList = () => {
+    const navigate = useNavigate()
 
     const images = [
-        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map"},
+        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path:"/localCoffeeShops"},
         { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration" },
         { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series" },
         { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural" },
@@ -21,7 +24,7 @@ const ProjectsList = () => {
                 <div>
                     {images.map((img, i) => (
                         <div className="image" key={i} >
-                            <img style={{ paddingBottom: '23px' }} src={img.image} />
+                            <img onClick={()=> navigate('/localCoffeeShops')}style={{ paddingBottom: '23px' }} src={img.image} />
                             <h2>{img.title}</h2>
                         </div>
                     ))}

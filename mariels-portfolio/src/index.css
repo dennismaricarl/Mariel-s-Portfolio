@@ -2,6 +2,7 @@
 
 .homepage-section {
     height: 100vh;
+    margin-bottom: 20%;
 }
 
 .sections {
@@ -71,7 +72,7 @@
 
 
 /* ProjectsList Section */
-.image{
+.image {
     cursor: pointer;
 }
 
