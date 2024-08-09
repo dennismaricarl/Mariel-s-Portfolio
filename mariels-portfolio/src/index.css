@@ -76,6 +76,10 @@
     cursor: pointer;
 }
 
+.image:hover{
+    opacity: 0.3;
+}
+
 
 /* Email Section */
 .email {
