@@ -59,11 +59,10 @@ const NavBar = () => {
                 </div>
             }
 
-
-
             <About />
             <ProjectsList />
             <Email />
+
         </div>
     )
 }

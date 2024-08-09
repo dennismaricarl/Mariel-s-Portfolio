@@ -6,12 +6,12 @@ const ProjectsList = () => {
 
     const images = [
         { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path:"/localCoffeeShops"},
-        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration" },
-        { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series" },
-        { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural" },
-        { image2: "/images/projects/3 humble abode image.png", title2: "My Humble Abode" },
-        { image2: "/images/projects/5 spaces image.png", title2: "S P A C E S (coffee shop interiors)" },
-        { image2: "/images/projects/7 LA spots image.png", title2: "LA Spots" }
+        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path:"/offsetCoffee"},
+        { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series", path:"/hyggeSeries"},
+        { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural", path:"/siamThai"},
+        { image2: "/images/projects/3 humble abode image.png", title2: "My Humble Abode", path:"/myHumbleAbode"},
+        { image2: "/images/projects/5 spaces image.png", title2: "S P A C E S (coffee shop interiors)", path:"/spaces"},
+        { image2: "/images/projects/7 LA spots image.png", title2: "LA Spots", path:"/laSpots"}
 
     ]
 
@@ -24,7 +24,7 @@ const ProjectsList = () => {
                 <div>
                     {images.map((img, i) => (
                         <div className="image" key={i} >
-                            <img onClick={()=> navigate('/localCoffeeShops')}style={{ paddingBottom: '23px' }} src={img.image} />
+                            <img onClick={()=> navigate(`${img.path}`)}style={{ paddingBottom: '23px' }} src={img.image} />
                             <h2>{img.title}</h2>
                         </div>
                     ))}
@@ -33,7 +33,7 @@ const ProjectsList = () => {
                 <div  style={{ marginTop: '-6rem' }} >
                     {images.map((img, i) => (
                         <div className="image" key={i}>
-                            <img src={img.image2} />
+                            <img onClick={()=> navigate(`${img.path}`)} src={img.image2} />
                             <h2>{img.title2}</h2>
                         </div>
                     ))}

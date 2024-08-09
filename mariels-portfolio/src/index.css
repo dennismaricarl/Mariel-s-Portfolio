@@ -109,3 +109,10 @@
 .backToHome:hover{
     transform: scale(1.2);
 }
+
+
+.nextProject:hover{
+    opacity: 0.6;
+    cursor: pointer
+
+}
