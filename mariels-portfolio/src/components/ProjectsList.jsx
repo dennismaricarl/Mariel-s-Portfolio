@@ -1,5 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 
+
 const ProjectsList = () => {
     const navigate = useNavigate()
 
@@ -15,7 +16,6 @@ const ProjectsList = () => {
     ]
 
     return (
-
         <div id="projectsListId" >
             <h1 style={{ textAlign: 'center', fontSize: '80px' }}>PROJECTS</h1>
 
@@ -41,7 +41,6 @@ const ProjectsList = () => {
 
             </div>
         </div>
-
     )
 }
 

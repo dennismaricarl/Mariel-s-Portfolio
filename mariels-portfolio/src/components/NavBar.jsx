@@ -1,5 +1,8 @@
 import { useState } from "react"
 import { Link } from 'react-scroll'
+import About from "./About";
+import ProjectsList from "./ProjectsList";
+import Email from "./Email";
 
 const NavBar = () => {
 
@@ -10,7 +13,7 @@ const NavBar = () => {
     }
 
     return (
-        <div className="navbar">
+        <div>
 
             <div className="header">
                 <img
@@ -34,14 +37,33 @@ const NavBar = () => {
                         <img className="nav" src="/images/ABOUT.png" />
                     </Link>
 
-                    <Link>
+                    <Link
+                        activeClass="active"
+                        to="projectsListId"
+                        smooth={true}
+                        duration={500}
+
+                    >
                         <img className="nav" src="/images/PROJECTS.png" />
                     </Link>
 
-                    <img className="nav" src="/images/Envelope.png" />
+                    <Link
+                        activeClass="active"
+                        to="emailId"
+                        smooth={true}
+                        duration={500}
+
+                    >
+                        <img className="nav" src="/images/Envelope.png" />
+                    </Link>
                 </div>
             }
 
+
+
+            <About />
+            <ProjectsList />
+            <Email />
         </div>
     )
 }

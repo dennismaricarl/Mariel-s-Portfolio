@@ -77,7 +77,6 @@
 }
 
 
-
 /* Email Section */
 .email {
     display: flex;
@@ -88,18 +87,25 @@
 }
 
 /* Local Coffee Shops page */
-.coffeeShops-container{
-   padding:15rem;
+.coffeeShops-container {
+    padding-left: 15rem;
+    padding-right:15rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.circle{
+.circle {
     width: 30px;
     height: 30px;
     background-color: black;
     border-radius: 50%;
 }
 
-.cirlces-container{
-    display:inline-flex; 
-    gap:10px;
+.cirlces-container {
+    display: inline-flex;
+    gap: 10px;
+}
+
+/* BackToHome */
+.backToHome:hover{
+    transform: scale(1.2);
 }

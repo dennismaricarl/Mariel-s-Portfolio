@@ -1,13 +1,14 @@
-
+import BackToHome from "./BackToHome";
 
 const LocalCoffeeShops = () => {
     return (
-        <div className="coffeeShops-container">
-
+        <>
+        <BackToHome/>
+        <div className="coffeeShops-container" >
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10rem' }}>
                 <div style={{ flex: 1, maxWidth: '80%', marginLeft: '80px' }}>
                     <h1>South Bay, CA Local Coffee Shops</h1>
-                    <p>I wanted to personally explore and showcase the local coffee shops in
+                    <p style={{ fontSize: '20px' }}>I wanted to personally explore and showcase the local coffee shops in
                         my area through this doodle-like illustrated map :) It begun as an idea
                         that turned into hours of researching, sketching, and finally composing a
                         hand-drawn and then digitized map to represent a little South Bay,
@@ -21,8 +22,8 @@ const LocalCoffeeShops = () => {
 
                 <div style={{ flex: 1 }}>
                     <h1>Project Details</h1>
-                    <p><span style={{ fontWeight: 'bold' }}>Brief:</span> Passion-Project -showcase local coffee shops in your community.</p>
-                    <p><span style={{ fontWeight: 'bold' }}>Tools:</span> Paper, Pen, Procreate, Adobe Illustrator</p>
+                    <p style={{ fontSize: '20px' }}><span style={{ fontWeight: 'bold' }}>Brief:</span> Passion-Project -showcase local coffee shops in your community.</p>
+                    <p style={{ fontSize: '20px' }}><span style={{ fontWeight: 'bold' }}>Tools:</span> Paper, Pen, Procreate, Adobe Illustrator</p>
 
                     <div className="cirlces-container">
                         <div className="circle" style={{ backgroundColor: '#de8c3e' }}></div>
@@ -46,6 +47,8 @@ const LocalCoffeeShops = () => {
             </div>
 
         </div>
+        </>
+
     )
 }
 
