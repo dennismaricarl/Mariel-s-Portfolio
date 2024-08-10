@@ -27,8 +27,8 @@ const LocalCoffeeShops = () => {
 
                     <div style={{ flex: 1 }}>
                         <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><span style={{ fontWeight: 'bold' }}>Brief:</span> Passion-Project -showcase local coffee shops in your community.</p>
-                        <p style={{ fontSize: '20px' }}><span style={{ fontWeight: 'bold' }}>Tools:</span> Paper, Pen, Procreate, Adobe Illustrator</p>
+                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Passion-Project -showcase local coffee shops in your community.</p>
+                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
 
                         <div className="cirlces-container">
                             <span className="circle" style={{ backgroundColor: '#de8c3e' }}></span>

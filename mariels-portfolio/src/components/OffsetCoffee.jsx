@@ -22,8 +22,8 @@ const LocalCoffeeShops = () => {
 
                     <div style={{ flex: 1 }}>
                         <h1>Project Details</h1>
-                        <p><strong>Brief:</strong> Illustrate a map that represents both coffee shop locations. Do it in your style!</p>
-                        <p><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
+                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Illustrate a map that represents both coffee shop locations. Do it in your style!</p>
+                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
 
 
                         <div className="cirlces-container">
