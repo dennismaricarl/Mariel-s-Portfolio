@@ -34,7 +34,7 @@ const MyHumbleAbode = () => {
                 </div>
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10rem', alignItems: 'center', marginTop: '5rem' }}>
+           <div className="images-container">
                 <img src="/images/my humble abode/6 bayridge.png" alt="bayridge" />
 
                 <div style={{ display: 'inline-flex' }}>

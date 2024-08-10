@@ -135,6 +135,15 @@
 
 }
 
+.images-container{
+    display:flex;
+    flex-direction: column;
+    gap:10rem;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
 /* BackToHome */
 .backToHome:hover{
     transform: scale(1.2);

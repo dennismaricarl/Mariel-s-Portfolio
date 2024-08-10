@@ -41,7 +41,7 @@ const LocalCoffeeShops = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '10rem' }}>
+                <div className="images-container">
                     <img src="/images/coffee shops/6 MAP illustration.png" />
 
                     <div style={{ display: "inline-flex" }}>
