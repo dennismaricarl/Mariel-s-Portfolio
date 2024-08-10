@@ -90,11 +90,23 @@
     height: 90vh;
 }
 
-/* Local Coffee Shops page */
-.coffeeShops-container {
-    padding-left: 15rem;
-    padding-right:15rem;
+/* Project pages */
+.main-container {
+    margin-left: 10rem;
+    margin-right:10rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.content-row {
+    display:flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.description {
+    flex:1;
+    max-width: 80%;
+    margin-left: 80px;
 }
 
 .circle {
@@ -107,6 +119,20 @@
 .cirlces-container {
     display: inline-flex;
     gap: 10px;
+    margin-top:20px;
+}
+
+.nextProject{
+    position:absolute;
+    right:0;
+    padding:5rem
+
+}
+
+.nextProject:hover{
+    opacity: 0.6;
+    cursor: pointer
+
 }
 
 /* BackToHome */
@@ -114,9 +140,3 @@
     transform: scale(1.2);
 }
 
-
-.nextProject:hover{
-    opacity: 0.6;
-    cursor: pointer
-
-}

@@ -3,15 +3,15 @@ import BackToHome from "./BackToHome";
 
 
 const LocalCoffeeShops = () => {
-    
+
     const navigate = useNavigate();
 
     return (
         <>
             <BackToHome />
-            <div className="coffeeShops-container" >
-                <div style={{ display: 'flex', flexDirection: 'row', gap: '10rem' }}>
-                    <div style={{ flex: 1, maxWidth: '80%', marginLeft: '80px' }}>
+            <div className="main-container" >
+                <div className="content-row">
+                    <div className="description">
                         <h1>South Bay, CA Local Coffee Shops</h1>
                         <p style={{ fontSize: '20px' }}>I wanted to personally explore and showcase the local coffee shops in
                             my area through this doodle-like illustrated map :) It begun as an idea
@@ -31,12 +31,12 @@ const LocalCoffeeShops = () => {
                         <p style={{ fontSize: '20px' }}><span style={{ fontWeight: 'bold' }}>Tools:</span> Paper, Pen, Procreate, Adobe Illustrator</p>
 
                         <div className="cirlces-container">
-                            <div className="circle" style={{ backgroundColor: '#de8c3e' }}></div>
-                            <div className="circle" style={{ backgroundColor: 'burlywood' }}></div>
-                            <div className="circle" style={{ backgroundColor: 'antiqueWhite' }}></div>
-                            <div className="circle" style={{ backgroundColor: 'green' }}></div>
-                            <div className="circle" style={{ backgroundColor: 'gray' }}></div>
-                            <div className="circle" style={{ backgroundColor: 'black' }}></div>
+                            <span className="circle" style={{ backgroundColor: '#de8c3e' }}></span>
+                            <span className="circle" style={{ backgroundColor: 'burlywood' }}></span>
+                            <span className="circle" style={{ backgroundColor: 'antiqueWhite' }}></span>
+                            <span className="circle" style={{ backgroundColor: 'green' }}></span>
+                            <span className="circle" style={{ backgroundColor: 'gray' }}></span>
+                            <span className="circle" style={{ backgroundColor: 'black' }}></span>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,9 @@ const LocalCoffeeShops = () => {
                     </div>
                     <img src="/images/coffee shops/9 typography.png" />
                 </div>
-                <img className="nextProject" onClick={()=> navigate('/')} style={{position:'absolute', right:'0', padding:'5rem'}} src="/images/coffee shops/10 next.png"/>
+
+
+                <img className="nextProject" onClick={() => navigate('/offsetCoffee')} style={{ position: 'absolute', right: '0', padding: '5rem' }} src="/images/coffee shops/10 next.png" />
 
 
             </div>
