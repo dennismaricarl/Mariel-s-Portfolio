@@ -125,8 +125,7 @@
 .nextProject{
     position:absolute;
     right:0;
-    padding:5rem
-
+    padding:5rem;
 }
 
 .nextProject:hover{
@@ -138,7 +137,7 @@
 .images-container{
     display:flex;
     flex-direction: column;
-    gap:10rem;
+    gap: 10rem;
     align-items: center;
     margin-top: 5rem;
 

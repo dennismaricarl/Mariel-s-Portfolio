@@ -11,7 +11,7 @@ const HyggeSeries = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>Offset Coffee Merch Design</h1>
+                        <h1>Hygge Series</h1>
                         <p style={{ fontSize: '20px' }}>The inspiration behind these illustrations is the philosophy and
                             lifestyle of hygge("hoo-ga"), characteristic of the Danish culture, in which one takes the time to slow down
                             and enjoy the simple pleasures of life. To me, hygge is spending time with the people I love and
@@ -42,7 +42,7 @@ const HyggeSeries = () => {
                 <img src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
             </div>
 
-            <img className="nextProject" onClick={() => navigate('/spaces')} style={{ position: 'absolute', right: '0', padding: '5rem' }} src="/images/hygge series/next.png" />
+            <img className="nextProject" onClick={() => navigate('/spaces')} src="/images/hygge series/next.png" />
         </>
     )
 

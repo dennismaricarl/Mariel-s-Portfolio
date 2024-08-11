@@ -11,7 +11,7 @@ const MyHumbleAbode = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>Offset Coffee Merch Design</h1>
+                        <h1>My Humble Abode</h1>
                         <p style={{ fontSize: '20px' }}>A compilation of some of my early drawings. I made it a point to
                             simply draw what was around me and ended up with many line works of my small studio apartment at the time.
                             Beginnings are very important; exploring how to observe and transfer what I see using pencil onto
@@ -46,7 +46,7 @@ const MyHumbleAbode = () => {
                 <img src="/images/my humble abode/10 kitchen.png" alt="kitchen" />
             </div>
 
-            <img className="nextProject" onClick={() => navigate('/hyggeSeries')} style={{ position: 'absolute', right: '0', padding: '5rem' }} src="/images/my humble abode/11 next.png" />
+            <img className="nextProject" onClick={() => navigate('/hyggeSeries')} src="/images/my humble abode/11 next.png" />
         </>
     )
 

@@ -52,7 +52,7 @@ const LocalCoffeeShops = () => {
                 </div>
 
 
-                <img className="nextProject" onClick={() => navigate('/offsetCoffee')} style={{ position: 'absolute', right: '0', padding: '5rem' }} src="/images/coffee shops/10 next.png" />
+                <img className="nextProject" onClick={() => navigate('/offsetCoffee')} src="/images/coffee shops/10 next.png" />
 
 
             </div>
