@@ -71,12 +71,23 @@
 }
 
 
+.arrow-dropdown{
+    position: absolute;
+    left: 50%
+}
+
+.imageURL{
+    position: absolute;
+    bottom: 80%;
+    left: 5%
+}
+
 /* ProjectsList Section */
 .image {
     cursor: pointer;
 }
 
-.image:hover{
+.image:hover {
     opacity: 0.3;
 }
 
@@ -90,6 +101,18 @@
     height: 90vh;
 }
 
+.email-envelope:hover {
+    opacity: 0.3;
+}
+
+.email-address {
+    color: black;
+}
+
+.email-address:hover {
+    opacity: 0.3;
+}
+
 /* Project pages */
 .main-container {
     margin-left: 10rem;
@@ -98,13 +121,13 @@
 }
 
 .content-row {
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 10rem;
 }
 
 .description {
-    flex:1;
+    flex: 1;
     max-width: 80%;
     margin-left: 80px;
 }
@@ -119,23 +142,22 @@
 .cirlces-container {
     display: inline-flex;
     gap: 10px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
-.nextProject{
-    position:absolute;
-    right:0;
-    padding:5rem;
+.nextProject {
+    position: absolute;
+    right: 0;
+    padding: 5rem;
 }
 
-.nextProject:hover{
+.nextProject:hover {
     opacity: 0.6;
     cursor: pointer
-
 }
 
-.images-container{
-    display:flex;
+.images-container {
+    display: flex;
     flex-direction: column;
     gap: 10rem;
     align-items: center;
@@ -144,7 +166,6 @@
 }
 
 /* BackToHome */
-.backToHome:hover{
+.backToHome:hover {
     transform: scale(1.2);
 }
-

@@ -1,8 +1,8 @@
 const Email = () => {
     return (
         <div id="emailId" className="email" >
-            <img src="/images/Envelope.png" />
-            <h1>mrosales.tru@gmail.com</h1>
+            <a href="mailto:mrosales.tru@gmail.com"> <img className="email-envelope" src="/images/Envelope.png" /></a>
+            <a href="mailto:mrosales.tru@gmail.com"> <h1 className="email-address">mrosales.tru@gmail.com</h1></a>
         </div>
     )
 }

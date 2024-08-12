@@ -9,20 +9,23 @@ import SiamThai from './components/SiamThai';
 import MyHumbleAbode from './components/MyHumbleAbode';
 import Spaces from './components/Spaces';
 import LaSpots from './components/LaSpots';
+import About from './components/About';
+import ProjectsList from './components/ProjectsList';
+import Email from './components/Email';
 
 function App() {
 
   return (
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
-        <Route path="/offsetCoffee" element={<OffsetCoffee/>} />
-        <Route path="/hyggeSeries" element={<HyggeSeries/>} />
-        <Route path="/siamThai" element={<SiamThai/>} />
-        <Route path="/myHumbleAbode" element={<MyHumbleAbode/>} />
-        <Route path="/spaces" element={<Spaces/>} />
-        <Route path="/laSpots" element={<LaSpots/>} />  
-      </Routes>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
+      <Route path="/offsetCoffee" element={<OffsetCoffee />} />
+      <Route path="/hyggeSeries" element={<HyggeSeries />} />
+      <Route path="/siamThai" element={<SiamThai />} />
+      <Route path="/myHumbleAbode" element={<MyHumbleAbode />} />
+      <Route path="/spaces" element={<Spaces />} />
+      <Route path="/laSpots" element={<LaSpots />} />
+    </Routes>
 
   );
 }

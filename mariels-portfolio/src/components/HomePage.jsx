@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 const HomePage = () => {
     return (
         <div>
-            <NavBar />
+            <NavBar isHomePage={true} />
 
             <div className="footer">
                 <img src="/images/mariel.png" />

@@ -12,6 +12,8 @@ const NavBar = () => {
         setToggle(!toggle)
     }
 
+ 
+
     return (
         <div>
 
@@ -54,7 +56,8 @@ const NavBar = () => {
                         duration={500}
 
                     >
-                        <img className="nav" src="/images/Envelope.png" />
+                    <img className="nav" src="/images/Envelope.png"/>
+                
                     </Link>
                 </div>
             }
@@ -62,7 +65,7 @@ const NavBar = () => {
             <About />
             <ProjectsList />
             <Email />
-
+            
         </div>
     )
 }
