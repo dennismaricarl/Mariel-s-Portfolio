@@ -3,7 +3,6 @@ import ArrowText from './ArrowText';
 const About = () => {
     return (
         <>
-
             <div id="aboutId" className="sections" style={{ marginTop: '50%' }}>
                 <img className="contour-image" src="/images/countour of self.png" />
 

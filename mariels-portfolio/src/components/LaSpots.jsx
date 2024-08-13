@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import BackToHome from "./BackToHome";
 
 const LaSpots = () => {
 

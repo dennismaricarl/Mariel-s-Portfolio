@@ -1,5 +1,4 @@
 import Email from "./Email";
-import NavBar from "./NavBar";
 import ProjectsList from "./ProjectsList";
 import About from "./About";
 import { useEffect } from "react";

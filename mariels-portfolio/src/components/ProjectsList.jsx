@@ -1,6 +1,5 @@
 import {useNavigate} from 'react-router-dom';
 
-
 const ProjectsList = () => {
     const navigate = useNavigate()
 
