@@ -14,11 +14,11 @@ const NavBar = () => {
 
     const handleNavigateToHome = (section) => {
         navigate("/", { state: { scrollTo: section } });
+        setToggle(false)
     };
 
     return (
         <>
-
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                 <BackToHome />
                 <div className="header">
