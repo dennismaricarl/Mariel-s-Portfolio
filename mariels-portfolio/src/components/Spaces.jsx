@@ -7,7 +7,6 @@ const Spaces = () => {
 
     return (
         <>
-            <BackToHome />
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">

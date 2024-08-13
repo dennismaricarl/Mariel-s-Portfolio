@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import NavBar from "./NavBar";
-import BackToHome from "./BackToHome";
+
 
 
 const LocalCoffeeShops = () => {
@@ -9,7 +9,6 @@ const LocalCoffeeShops = () => {
 
     return (
         <>
-            <BackToHome/>
             <div className="main-container" >
                 <div className="content-row">
                     <div className="description">

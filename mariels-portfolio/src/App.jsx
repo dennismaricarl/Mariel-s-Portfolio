@@ -9,13 +9,12 @@ import SiamThai from './components/SiamThai';
 import MyHumbleAbode from './components/MyHumbleAbode';
 import Spaces from './components/Spaces';
 import LaSpots from './components/LaSpots';
-import About from './components/About';
-import ProjectsList from './components/ProjectsList';
-import Email from './components/Email';
-
+import NavBar from './components/NavBar';
 function App() {
 
   return (
+    <>
+    <NavBar/>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
@@ -26,6 +25,7 @@ function App() {
       <Route path="/spaces" element={<Spaces />} />
       <Route path="/laSpots" element={<LaSpots />} />
     </Routes>
+    </>
 
   );
 }
