@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import BackToHome from "./BackToHome";
 
 const HyggeSeries = () => {
 
@@ -7,7 +6,6 @@ const HyggeSeries = () => {
 
     return (
         <>
-            <BackToHome />
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
