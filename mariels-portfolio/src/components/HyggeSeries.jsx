@@ -33,7 +33,7 @@ const HyggeSeries = () => {
             </div>
 
             <div className="images-container" >
-                <img style={{ height: '1000px' }} src="/images/hygge series/6 lets get together.png" alt="let's get together" />
+                <img style={{ marginTop: '-12%' }} src="/images/hygge series/6 lets get together.png" alt="let's get together" />
                 <img src="/images/hygge series/7 mock mural.png" alt="mock mural" />
                 <img src="/images/hygge series/8 celebrate.png" alt="celebrate" />
                 <img src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />

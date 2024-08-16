@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const LocalCoffeeShops = () => {
+const OffsetCoffee = () => {
 
     const navigate = useNavigate();
 
@@ -25,33 +25,36 @@ const LocalCoffeeShops = () => {
 
 
                         <div className="cirlces-container">
-                            <span className="circle" style={{ backgroundColor: '#de8c3e' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'burlywood' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'antiqueWhite' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'green' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'gray' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'black' }}></span>
+
+                            <span className="circle" style={{ backgroundColor: '#f3ca7b' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#548c9d' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#ceaa7c' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#a06a2f' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#92be9c' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#fff5eb' }}></span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="images-container">
-                <img src="/images/offset/6 illustration.png" alt="offset illustration" />
+                <img style={{ width: '78%' }} src="/images/offset/6 illustration.png" alt="offset illustration" />
 
-                <div>
+
+                <div style={{ display: 'flex', gap: '10rem' }}>
                     <img src="/images/offset/7 mug sun view.png" alt="mug sun view" />
                     <img src="/images/offset/7 mug front view.png" alt="mug front view" />
                     <img src="/images/offset/7 mug side view.png" alt="mug side view" />
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ display: 'inline-flex' }}>
-                        <img src="/images/offset/8 shirt front.png" alt="shirt front" />
-                        <img src="/images/offset/8 shirt back.png" alt="shirt back" />
-                    </div>
-                    <p style={{ fontFamily: 'serif', fontSize: '30px', textAlign: 'right', marginTop: '-2px' }}>photo credits to @kyle.braaten</p>
+
+                <div style={{ display: 'flex', width: '78%' }}>
+                    <img style={{ width: '48%' }} src="/images/offset/8 shirt front.png" alt="Shirt front" />
+                    <img style={{ width: '48%' }} src="/images/offset/8 shirt back.png" alt="Shirt back" />
                 </div>
+
+                <p style={{ fontFamily: 'serif', fontSize: '30px', marginTop: '-10rem', marginLeft: '54%' }}>photo credits to @kyle.braaten</p>
+
 
             </div>
 
@@ -61,4 +64,4 @@ const LocalCoffeeShops = () => {
 
 }
 
-export default LocalCoffeeShops;
+export default OffsetCoffee;

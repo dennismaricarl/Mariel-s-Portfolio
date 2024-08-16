@@ -1,7 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import NavBar from "./NavBar";
-
-
 
 const LocalCoffeeShops = () => {
 
@@ -31,12 +28,13 @@ const LocalCoffeeShops = () => {
                         <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
 
                         <div className="cirlces-container">
-                            <span className="circle" style={{ backgroundColor: '#de8c3e' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'burlywood' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'antiqueWhite' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'green' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'gray' }}></span>
-                            <span className="circle" style={{ backgroundColor: 'black' }}></span>
+ 
+                            <span className="circle" style={{ backgroundColor: '#c28d4a' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#bea489' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#fff5eb' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#b1cfb4' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#4b4e5d' }}></span>
+                            <span className="circle" style={{ backgroundColor: '#000000' }}></span>
                         </div>
                     </div>
                 </div>
