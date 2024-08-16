@@ -16,7 +16,7 @@ const ProjectsList = () => {
 
     return (
         <div id="projectsListId">
-            <h1 style={{ fontFamily:"Bebas Neue Pro", textAlign: 'center', fontSize: '80px' }}>PROJECTS</h1>
+            <h1 style={{ fontFamily:"Bebas Neue", textAlign: 'center', fontSize: '80px' }}>PROJECTS</h1>
 
             <div style={{ display: 'flex', justifyContent: 'center', gap: '50px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '50px' }}>

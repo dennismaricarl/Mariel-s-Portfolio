@@ -7,8 +7,8 @@ const BackToHome = () => {
     return(
 
         <div className="backToHome" onClick={() => navigate('/')}style={{ 
-            width: '50px',
-            height: '50px',
+            width: '80px',
+            height: '80px',
             backgroundColor: 'black',
             borderRadius: '50%',
             margin: '4rem 5rem'}}>
