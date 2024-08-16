@@ -7,6 +7,7 @@ import { scroller } from "react-scroll";
 
 
 const HomePage = () => {
+
     const location = useLocation();
 
     useEffect(() => {

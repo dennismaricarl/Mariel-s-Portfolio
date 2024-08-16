@@ -12,9 +12,10 @@ import LaSpots from './components/LaSpots';
 import NavBar from './components/NavBar';
 function App() {
 
+
   return (
     <>
-    <NavBar/>
+    <NavBar />
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />

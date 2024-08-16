@@ -1,9 +1,12 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import BackToHome from "./BackToHome"
+import { useLocation } from "react-router-dom";
 
 
 const NavBar = () => {
+    const location = useLocation();
+    const isHomePage = location.pathname === "/";
 
     const [toggle, setToggle] = useState(false)
     const navigate = useNavigate()
@@ -19,8 +22,9 @@ const NavBar = () => {
 
     return (
         <>
-            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-                <BackToHome />
+            <div className={!isHomePage && "navbar-container"}>
+
+                {!isHomePage && <BackToHome />}
                 <div className="header">
                     <img
                         className="dropdown"
