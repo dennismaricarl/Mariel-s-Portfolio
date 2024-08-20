@@ -4,7 +4,8 @@ const About = () => {
     return (
         <>
             <div id="aboutId" className="about-section">
-            
+
+         
                     <img className="contour-image" src="/images/countour of self.png" />
            
                     <p className="about-paragraph">

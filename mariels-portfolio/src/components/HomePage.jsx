@@ -15,7 +15,7 @@ const HomePage = () => {
             scroller.scrollTo(location.state.scrollTo, {
                 duration: 800,
                 smooth: true,
-                offest: -100
+                offset: -300
             });
         }
     }, [location]);
@@ -28,9 +28,12 @@ const HomePage = () => {
                 <img src="/images/trujillo.png" />
             </div>
 
+            <>
             <About />
             <ProjectsList />
             <Email />
+            </>
+
         </div>
 
     )

@@ -23,9 +23,9 @@ const NavBar = () => {
     return (
         <div>
            
-            <div className={!isHomePage ? "navbar-container" : "navbarHomepage-container"}>
+            <div className="navbar-container">
 
-                {!isHomePage && <BackToHome />}
+               <BackToHome />
                 <div className="header">
                     <img
                         className="dropdown"
@@ -41,19 +41,18 @@ const NavBar = () => {
                 <div className="dropdown-content">
 
                     <img
-                        className="nav"
                         src="/images/ABOUT.png"
                         onClick={() => handleNavigateToHome("aboutId")}
                     />
 
                     <img
-                        className="nav"
+
                         src="/images/PROJECTS.png"
                         onClick={() => handleNavigateToHome("projectsListId")}
                     />
 
                     <img
-                        className="nav"
+
                         src="/images/Envelope.png"
                         onClick={() => handleNavigateToHome("emailId")}
                     />

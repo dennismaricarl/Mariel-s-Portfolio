@@ -16,10 +16,10 @@ const ProjectsList = () => {
 
     return (
         <div id="projectsListId">
-            <h1 style={{ fontFamily:"Bebas Neue", textAlign: 'center', fontSize: '80px' }}>PROJECTS</h1>
+            <h1 className="title">PROJECTS</h1>
 
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '50px' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '50px' }}>
+            <div className="projects-container">
+                <div className="projects-column">
                     {images.slice(0, 4).map((img, i) => (
                         <div className="image" key={i} >
                             <img
@@ -28,12 +28,12 @@ const ProjectsList = () => {
                                 src={img.image}
                                 alt={img.title}
                             />
-                            <h2>{img.title}</h2>
+                            <h2 className="image-title">{img.title}</h2>
                         </div>
                     ))}
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '50px' }}>
+                <div className="projects-column">
                     {images.slice(4).map((img, i) => (
                         <div className="image" key={i}>
                             <img
@@ -42,7 +42,7 @@ const ProjectsList = () => {
 
                                 alt={img.title}
                             />
-                            <h2 style={{ marginLeft: img.titleMarginLeft }}>{img.title}</h2>
+                            <h2 className="image-title" style={{ marginLeft: img.titleMarginLeft }}>{img.title}</h2>
                         </div>
                     ))}
                 </div>

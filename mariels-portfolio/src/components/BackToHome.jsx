@@ -11,7 +11,7 @@ const BackToHome = () => {
             height: '80px',
             backgroundColor: 'black',
             borderRadius: '50%',
-            margin: '4rem 5rem'}}>
+           }}>
         </div>
 
     

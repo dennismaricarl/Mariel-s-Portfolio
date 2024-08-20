@@ -1,8 +1,8 @@
 /* HomePage */
 
 .homepage-container {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .footer {
@@ -10,25 +10,19 @@
     bottom: 0;
     display: flex;
     gap: 10%;
-    padding-left: 5%;
     padding-bottom: 2%;
     max-width: fit-content;
 }
 
+
+
 /* NavBar Section */
 
-.header {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 50px;
-    padding-right: 50px;
-}
 
 .dropdown:hover {
     transform: scale(1.1);
 
 }
-
 
 .dropdown-content {
     display: flex;
@@ -36,70 +30,61 @@
     gap: 20px;
     align-items: flex-end;
     padding-right: 3%;
-    margin-top: 10%;
+    margin-top: 9%;
 }
+
+
 
 .nav:hover {
     opacity: 0.1
 }
 
+
 .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
     display: flex;
-    flex-direction: row;
+    padding: 3rem 6rem;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    /* Ensure it's at the top */
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    /* Ensure it’s on top of other elements */
-    background-color: white;
-    /* Adjust as needed */
-}
+    box-sizing: border-box;
+    /* Includes padding in width calculation */
 
-.navbarHomepage-container {
-    position: fixed;
-    top: 0;
-    /* Ensure it's at the top */
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    /* Ensure it’s on top of other elements */
-    background-color: white;
-    /* Adjust as needed */
 }
-
 
 
 /* About Section */
+
 .about-section {
     height: 100vh;
-    padding-top: 70%;
+    margin-top: 80%;
     display: flex;
-    gap: 53px;
+    gap: 55px;
 }
 
 .contour-image {
-    height: 80%;
     padding-top: 40px;
+    height: 70%;
+    flex: 2
 }
 
 .about-paragraph {
     font-family: Helvetica;
     font-weight: lighter;
-    font-size: 80px;
-
+    font-size: 75px;
+    flex: 3
 }
 
 .column-photo {
     margin-bottom: 10%;
 }
 
-
 .arrow-dropdown {
     position: absolute;
-    left: 50%
+    left: 50%;
 }
 
 .imageURL {
@@ -109,12 +94,36 @@
 }
 
 /* ProjectsList Section */
+
+.title {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.projects-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .image {
     cursor: pointer;
 }
 
 .image:hover {
     transform: scale(1.1);
+}
+
+.image-title {
+    font-family: Helvetica;
 }
 
 
@@ -133,6 +142,7 @@
 
 .email-address {
     color: black;
+    font-family: Helvetica;
 }
 
 .email-address:hover {
@@ -141,8 +151,7 @@
 
 /* Project pages */
 .main-container {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: 15rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
