@@ -13,14 +13,15 @@ const HomePage = () => {
     useEffect(() => {
         if (location.state?.scrollTo) {
             scroller.scrollTo(location.state.scrollTo, {
-                duration: 500,
+                duration: 800,
                 smooth: true,
+                offest: -100
             });
         }
     }, [location]);
 
     return (
-        <div>
+        <div className="homepage-container">
         
             <div className="footer">
                 <img src="/images/mariel.png" />

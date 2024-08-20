@@ -1,13 +1,18 @@
-/* Sections - to ensure every page takes up whole space  */
+/* HomePage */
 
-.homepage-section {
-    height: 100vh;
-    margin-bottom: 20%;
+.homepage-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
-.sections {
-    height: 100vh;
-    padding-top: 80px;
+.footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 10%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    max-width: fit-content;
 }
 
 /* NavBar Section */
@@ -15,25 +20,15 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    padding: 60px;
+    padding-top: 50px;
+    padding-right: 50px;
 }
-
 
 .dropdown:hover {
     transform: scale(1.1);
-    /* opacity: 0.1 */
 
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    gap: 10%;
-    padding-left: 7%;
-    padding-bottom: 2%
-}
 
 .dropdown-content {
     display: flex;
@@ -41,6 +36,7 @@
     gap: 20px;
     align-items: flex-end;
     padding-right: 3%;
+    margin-top: 10%;
 }
 
 .nav:hover {
@@ -51,26 +47,49 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    /* Ensure it's at the top */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure it’s on top of other elements */
+    background-color: white;
+    /* Adjust as needed */
+}
+
+.navbarHomepage-container {
+    position: fixed;
+    top: 0;
+    /* Ensure it's at the top */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure it’s on top of other elements */
+    background-color: white;
+    /* Adjust as needed */
 }
 
 
 
 /* About Section */
-#aboutId {
+.about-section {
+    height: 100vh;
+    padding-top: 70%;
     display: flex;
     gap: 53px;
-
 }
 
 .contour-image {
     height: 80%;
-
+    padding-top: 40px;
 }
 
-.about-right {
-    font-family: sans-serif;
+.about-paragraph {
+    font-family: Helvetica;
     font-weight: lighter;
-    font-size: 85px;
+    font-size: 80px;
+
 }
 
 .column-photo {

@@ -21,8 +21,9 @@ const NavBar = () => {
     };
 
     return (
-        <>
-            <div className={!isHomePage && "navbar-container"}>
+        <div>
+           
+            <div className={!isHomePage ? "navbar-container" : "navbarHomepage-container"}>
 
                 {!isHomePage && <BackToHome />}
                 <div className="header">
@@ -61,7 +62,7 @@ const NavBar = () => {
                 </div>
             }
 
-        </>
+        </div>
     )
 }
 
