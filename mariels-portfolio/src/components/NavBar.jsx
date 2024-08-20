@@ -22,10 +22,10 @@ const NavBar = () => {
 
     return (
         <div>
-           
+
             <div className="navbar-container">
 
-               <BackToHome />
+                <BackToHome />
                 <div className="header">
                     <img
                         className="dropdown"
@@ -40,19 +40,18 @@ const NavBar = () => {
 
                 <div className="dropdown-content">
 
-                    <img
+                    <img className="nav"
                         src="/images/ABOUT.png"
                         onClick={() => handleNavigateToHome("aboutId")}
                     />
 
-                    <img
-
+                    <img className="nav"
                         src="/images/PROJECTS.png"
                         onClick={() => handleNavigateToHome("projectsListId")}
                     />
 
                     <img
-
+                        className="nav"
                         src="/images/Envelope.png"
                         onClick={() => handleNavigateToHome("emailId")}
                     />

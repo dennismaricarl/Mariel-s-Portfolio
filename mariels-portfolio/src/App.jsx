@@ -10,12 +10,17 @@ import MyHumbleAbode from './components/MyHumbleAbode';
 import Spaces from './components/Spaces';
 import LaSpots from './components/LaSpots';
 import NavBar from './components/NavBar';
+import ScrollToTop from './components/ScrollToTop';
+
+
+
 function App() {
 
 
   return (
     <>
     <NavBar />
+    <ScrollToTop/>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
