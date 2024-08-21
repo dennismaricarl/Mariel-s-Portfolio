@@ -4,12 +4,12 @@ import BackToHome from "./BackToHome"
 
 
 const NavBar = () => {
- 
+
     const [toggle, setToggle] = useState(false)
     const navigate = useNavigate()
 
-
     const handleClick = () => {
+        window.scrollTo(0,0)
         setToggle(!toggle)
     }
 
@@ -18,13 +18,15 @@ const NavBar = () => {
         setToggle(false)
     };
 
+
+
     return (
         <div>
 
             <div className="navbar-container">
 
-              <BackToHome />
-                <div className="header">
+            <BackToHome />
+                <div>
                     <img
                         className="dropdown"
                         onClick={handleClick}

@@ -122,11 +122,8 @@
     transform: scale(1.1);
 }
 
-.image-title {
-    font-family: Helvetica;
-}
 
-.project-title{
+.image-title, .project-title{
     font-family: Helvetica;
 }
 

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 
+
 const BackToHome = () => {
     const navigate = useNavigate()
 
@@ -14,9 +15,6 @@ const BackToHome = () => {
             borderRadius: '50%',
            }}>
         </div>
-
-    
-      
     )
 }
 
