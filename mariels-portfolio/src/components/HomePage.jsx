@@ -27,6 +27,7 @@ const HomePage = () => {
                 <img src="/images/mariel.png" />
                 <img src="/images/trujillo.png" />
             </div>
+
             <About />
             <ProjectsList />
             <Email />
