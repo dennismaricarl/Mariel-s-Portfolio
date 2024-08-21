@@ -8,7 +8,7 @@ import Email from "./Email";
 
 const HomePage = () => {
 
-    const location = useLocation();    
+    const location = useLocation();
 
     useEffect(() => {
         if (location.state?.scrollTo) {
@@ -23,14 +23,17 @@ const HomePage = () => {
     return (
         <div className="homepage-container">
 
-            <div className="footer" >
-                <img src="/images/mariel.png" />
-                <img src="/images/trujillo.png" />
+            <div className="full-name-container">
+                <div className="full-name">
+                    <img src="/images/mariel.png" alt="Mariel" />
+                    <img src="/images/trujillo.png" alt="Trujillo" />
+                </div>
             </div>
 
             <About />
             <ProjectsList />
             <Email />
+
         </div>
 
     )
