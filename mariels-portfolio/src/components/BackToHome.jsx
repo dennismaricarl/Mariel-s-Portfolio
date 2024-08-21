@@ -6,7 +6,8 @@ const BackToHome = () => {
 
     return(
 
-        <div className="backToHome" onClick={() => navigate('/')}style={{ 
+        <div className="backToHome" onClick={() => navigate('/') || window.scroll(0,0)}
+        style={{ 
             width: '80px',
             height: '80px',
             backgroundColor: 'black',

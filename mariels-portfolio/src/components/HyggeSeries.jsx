@@ -9,8 +9,8 @@ const HyggeSeries = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>Hygge Series</h1>
-                        <p style={{ fontSize: '20px' }}>The inspiration behind these illustrations is the philosophy and
+                        <h1 className="project-title">Hygge Series</h1>
+                        <p className="project-description">The inspiration behind these illustrations is the philosophy and
                             lifestyle of hygge("hoo-ga"), characteristic of the Danish culture, in which one takes the time to slow down
                             and enjoy the simple pleasures of life. To me, hygge is spending time with the people I love and
                             enjoying hours soaking in the summer sun.
@@ -19,8 +19,8 @@ const HyggeSeries = () => {
 
                     <div style={{ flex: 1 }}>
                         <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Passion Project - draw your hygge experiences. </p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
+                        <p className="project-description"><strong>Brief:</strong> Passion Project - draw your hygge experiences. </p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
 
 
                         <div className="cirlces-container">
@@ -40,7 +40,7 @@ const HyggeSeries = () => {
                 <img src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
             </div>
 
-            <img className="nextProject" onClick={() => navigate('/spaces')} src="/images/hygge series/next.png" />
+            <img className="nextProject" onClick={() => navigate('/spaces')} src="/images/hygge series/next.png" alt="hygge series - next arrow"/>
         </>
     )
 

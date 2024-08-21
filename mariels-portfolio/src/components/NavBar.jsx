@@ -1,15 +1,13 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import BackToHome from "./BackToHome"
-import { useLocation } from "react-router-dom";
 
 
 const NavBar = () => {
-    const location = useLocation();
-    const isHomePage = location.pathname === "/";
-
+ 
     const [toggle, setToggle] = useState(false)
     const navigate = useNavigate()
+
 
     const handleClick = () => {
         setToggle(!toggle)
@@ -25,7 +23,7 @@ const NavBar = () => {
 
             <div className="navbar-container">
 
-                <BackToHome />
+              <BackToHome />
                 <div className="header">
                     <img
                         className="dropdown"

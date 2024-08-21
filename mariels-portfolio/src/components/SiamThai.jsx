@@ -9,8 +9,8 @@ const SiamThai = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>Siam Thai Station Mural</h1>
-                        <p style={{ fontSize: '20px' }}>Proposed black and white line art mural for a Thai restaurant.
+                        <h1 className="project-title">Siam Thai Station Mural</h1>
+                        <p className="project-description">Proposed black and white line art mural for a Thai restaurant.
                             The theme here is community expressed through businesses and activities around the city
                             mixed with Thailand culture and its emblems to represent the restaurant's - and really the
                             Asian roots and influence in my town. I created many of the drawings with a splash of imagination
@@ -19,9 +19,9 @@ const SiamThai = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong>create a community inspired mural for Thai restaurant, Siam Station</p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong>create a community inspired mural for Thai restaurant, Siam Station</p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
 
 
                         <div className="cirlces-container">

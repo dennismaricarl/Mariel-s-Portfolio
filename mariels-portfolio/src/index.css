@@ -74,7 +74,7 @@
 .about-paragraph {
     font-family: Helvetica;
     font-weight: lighter;
-    font-size: 75px;
+    font-size: 70px;
     flex: 3
 }
 
@@ -126,6 +126,14 @@
     font-family: Helvetica;
 }
 
+.project-title{
+    font-family: Helvetica;
+}
+
+.project-description{
+    font-family: Helvetica;
+    font-size: 20px;
+}
 
 /* Email Section */
 .email {

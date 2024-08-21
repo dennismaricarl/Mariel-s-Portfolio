@@ -9,8 +9,8 @@ const OffsetCoffee = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>Offset Coffee Merch Design</h1>
-                        <p style={{ fontSize: '20px' }}>Offset reached out to collaborate on a
+                        <h1 className="project-title">Offset Coffee Merch Design</h1>
+                        <p className="project-description">Offset reached out to collaborate on a
                             tumblr design that showcased both of their shop locations at the time.
                             The idea was to create a map. I was given free reign and so I set out learn
                             more about their vibe, which included vintage car shows and that classic
@@ -19,9 +19,9 @@ const OffsetCoffee = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Illustrate a map that represents both coffee shop locations. Do it in your style!</p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong> Illustrate a map that represents both coffee shop locations. Do it in your style!</p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
 
 
                         <div className="cirlces-container">

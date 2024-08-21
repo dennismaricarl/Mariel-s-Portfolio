@@ -9,8 +9,8 @@ const LaSpots = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>LA Spots</h1>
-                        <p style={{ fontSize: '20px' }}>From the tip of San Pedro all the way up to Malibu, to the undying
+                        <h1 className="project-title">LA Spots</h1>
+                        <p className="project-description">From the tip of San Pedro all the way up to Malibu, to the undying
                             land of Disney in Anaheim, and a few other points of interest, here are some of the most well-loved spots
                             in Los Angeles. This project was inspired by a way to give Turo guests a small visual reference of
                             recommendations for where to go to enjoy SoCal around LA county. Turo is a rideshare app of which I used to be a host for!
@@ -18,9 +18,9 @@ const LaSpots = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong>create a reference card map & brochure for Turo guests</p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pencil, Adobe Illustrator, Photoshop</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong>create a reference card map & brochure for Turo guests</p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pencil, Adobe Illustrator, Photoshop</p>
 
 
                         <div className="cirlces-container">

@@ -13,24 +13,24 @@ import NavBar from './components/NavBar';
 import ScrollToTop from './components/ScrollToTop';
 
 
-
 function App() {
 
 
   return (
     <>
-    <NavBar />
-    <ScrollToTop/>
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
-      <Route path="/offsetCoffee" element={<OffsetCoffee />} />
-      <Route path="/hyggeSeries" element={<HyggeSeries />} />
-      <Route path="/siamThai" element={<SiamThai />} />
-      <Route path="/myHumbleAbode" element={<MyHumbleAbode />} />
-      <Route path="/spaces" element={<Spaces />} />
-      <Route path="/laSpots" element={<LaSpots />} />
-    </Routes>
+      <NavBar />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/localCoffeeShops" element={<LocalCoffeeShops />} />
+        <Route path="/offsetCoffee" element={<OffsetCoffee />} />
+        <Route path="/hyggeSeries" element={<HyggeSeries />} />
+        <Route path="/siamThai" element={<SiamThai />} />
+        <Route path="/myHumbleAbode" element={<MyHumbleAbode />} />
+        <Route path="/spaces" element={<Spaces />} />
+        <Route path="/laSpots" element={<LaSpots />} />
+      </Routes>
+
     </>
 
   );

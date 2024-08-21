@@ -9,8 +9,8 @@ const MyHumbleAbode = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>My Humble Abode</h1>
-                        <p style={{ fontSize: '20px' }}>A compilation of some of my early drawings. I made it a point to
+                        <h1 className="project-title">My Humble Abode</h1>
+                        <p className="project-description">A compilation of some of my early drawings. I made it a point to
                             simply draw what was around me and ended up with many line works of my small studio apartment at the time.
                             Beginnings are very important; exploring how to observe and transfer what I see using pencil onto
                             the page was and still is an incredibly important and ongoing process for me. Hence, why I include
@@ -19,9 +19,9 @@ const MyHumbleAbode = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Sketchbook Time -  draw what is around you. </p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pencil, Sketchbook, Procreate</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong> Sketchbook Time -  draw what is around you. </p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pencil, Sketchbook, Procreate</p>
 
 
                         <div className="cirlces-container">

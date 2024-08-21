@@ -9,8 +9,8 @@ const Spaces = () => {
             <div className="main-container" >
                 <div className="content-row" >
                     <div className="description">
-                        <h1>S P A C E S (coffee shop interiors)</h1>
-                        <p style={{ fontSize: '20px' }}>There is always something enthralling
+                        <h1 className="project-title">S P A C E S (coffee shop interiors)</h1>
+                        <p className="project-description">There is always something enthralling
                             about being in a well designed space. Like many folks all over the world, I admire
                             the interior of beautiful coffee shops, along with the smells and sounds of people going
                             through their day, working, reading, catching up with a friend, or simply stopping by for a pastry
@@ -21,9 +21,9 @@ const Spaces = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Sketchbook Time - draw beautiful interiors you enjoy </p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pencil, Procreatep</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong> Sketchbook Time - draw beautiful interiors you enjoy </p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pencil, Procreatep</p>
 
 
                         <div className="cirlces-container">

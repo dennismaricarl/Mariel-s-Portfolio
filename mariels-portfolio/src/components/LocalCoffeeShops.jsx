@@ -9,8 +9,8 @@ const LocalCoffeeShops = () => {
             <div className="main-container" >
                 <div className="content-row">
                     <div className="description">
-                        <h1>South Bay, CA Local Coffee Shops</h1>
-                        <p style={{ fontSize: '20px' }}>I wanted to personally explore and showcase the local coffee shops in
+                        <h1 className="project-title">South Bay, CA Local Coffee Shops</h1>
+                        <p className="project-description">I wanted to personally explore and showcase the local coffee shops in
                             my area through this doodle-like illustrated map :) It begun as an idea
                             that turned into hours of researching, sketching, and finally composing a
                             hand-drawn and then digitized map to represent a little South Bay,
@@ -23,9 +23,9 @@ const LocalCoffeeShops = () => {
                     </div>
 
                     <div style={{ flex: 1 }}>
-                        <h1>Project Details</h1>
-                        <p style={{ fontSize: '20px' }}><strong>Brief:</strong> Passion-Project -showcase local coffee shops in your community.</p>
-                        <p style={{ fontSize: '20px' }}><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
+                        <h1 className="project-title">Project Details</h1>
+                        <p className="project-description"><strong>Brief:</strong> Passion-Project -showcase local coffee shops in your community.</p>
+                        <p className="project-description"><strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator</p>
 
                         <div className="cirlces-container">
  
