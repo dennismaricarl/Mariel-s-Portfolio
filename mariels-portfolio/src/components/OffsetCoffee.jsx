@@ -38,22 +38,22 @@ const OffsetCoffee = () => {
             </div>
 
             <div className="images-container">
-                <img style={{ width: '78%' }} src="/images/offset/6 illustration.png" alt="offset illustration" />
+                <img className="project-image" src="/images/offset/6 illustration.png" alt="offset illustration" />
 
 
                 <div style={{ display: 'flex', gap: '10rem' }}>
-                    <img src="/images/offset/7 mug sun view.png" alt="mug sun view" />
-                    <img src="/images/offset/7 mug front view.png" alt="mug front view" />
-                    <img src="/images/offset/7 mug side view.png" alt="mug side view" />
+                    <img className="project-image" src="/images/offset/7 mug sun view.png" alt="mug sun view" />
+                    <img className="project-image" src="/images/offset/7 mug front view.png" alt="mug front view" />
+                    <img className="project-image" src="/images/offset/7 mug side view.png" alt="mug side view" />
                 </div>
 
 
-                <div style={{ display: 'flex', width: '78%' }}>
-                    <img style={{ width: '48%' }} src="/images/offset/8 shirt front.png" alt="Shirt front" />
-                    <img style={{ width: '48%' }} src="/images/offset/8 shirt back.png" alt="Shirt back" />
+                <div style={{ display: 'flex', justifyContent:'center'}}>
+                    <img className="project-image2" src="/images/offset/8 shirt front.png" alt="Shirt front" />
+                    <img className="project-image2" src="/images/offset/8 shirt back.png" alt="Shirt back" />
                 </div>
 
-                <p style={{ fontFamily: 'serif', fontSize: '30px', marginTop: '-10rem', marginLeft: '54%' }}>photo credits to @kyle.braaten</p>
+                <p style={{ fontFamily: 'serif', fontSize: '25px', marginTop: '-10rem', marginLeft:'45rem' }}>photo credits to @kyle.braaten</p>
 
 
             </div>

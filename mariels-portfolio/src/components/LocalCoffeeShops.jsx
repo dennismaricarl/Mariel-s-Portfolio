@@ -40,13 +40,13 @@ const LocalCoffeeShops = () => {
                 </div>
 
                 <div className="images-container">
-                    <img src="/images/coffee shops/6 MAP illustration.png" />
+                    <img className="project-image" src="/images/coffee shops/6 MAP illustration.png" />
 
-                    <div style={{ display: "inline-flex" }}>
-                        <img src="/images/coffee shops/7 keys.png" />
-                        <img src="/images/coffee shops/8 coffee design.png" />
+                    <div style={{ display: "inline-flex", alignItems:'center', justifyContent:'center' }}>
+                        <img className='project-image2' src="/images/coffee shops/7 keys.png" />
+                        <img className='project-image2'src="/images/coffee shops/8 coffee design.png" />
                     </div>
-                    <img src="/images/coffee shops/9 typography.png" />
+                    <img className="project-image" src="/images/coffee shops/9 typography.png" />
                 </div>
 
 

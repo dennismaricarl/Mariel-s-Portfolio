@@ -1,5 +1,5 @@
 import { useState } from "react";
-const ArrowText = ({ text, imageURL, size, left }) => {
+const ArrowText = ({ text, imageURL, size, left}) => {
 
     const [isHovered, setIsHovered] = useState(false)
 
@@ -16,7 +16,7 @@ const ArrowText = ({ text, imageURL, size, left }) => {
                 <img
                     src={imageURL}
                     className="imageURL"
-                    style={{width: size, left:left}}
+                    style={{width: size}}
                 />
             
             }

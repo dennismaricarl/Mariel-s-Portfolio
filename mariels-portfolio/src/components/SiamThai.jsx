@@ -33,9 +33,9 @@ const SiamThai = () => {
             </div>
 
             <div className="images-container">
-                <img src="/images/siam station/6 Siam Thai Mural Vector.png" alt="Siam Thai Mural Vector" />
-                <img src="/images/siam station/7 resto mock up.png" alt="resto mock up" />
-                <img src="/images/siam station/8 Mural Process.png" alt="Mural Process" />
+                <img className="project-image" src="/images/siam station/6 Siam Thai Mural Vector.png" alt="Siam Thai Mural Vector" />
+                <img className="project-image" src="/images/siam station/7 resto mock up.png" alt="resto mock up" />
+                <img className="project-image" src="/images/siam station/8 Mural Process.png" alt="Mural Process" />
             </div>
 
             <img className="nextProject" onClick={() => navigate('/laSpots')} src="/images/siam station/next.png" />

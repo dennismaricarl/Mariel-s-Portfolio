@@ -7,6 +7,7 @@
     justify-content: center;
     margin-left: 20rem;
     margin-right: 20rem;
+
 }
 
 .full-name-container {
@@ -18,11 +19,18 @@
 
 .full-name {
     display: flex;
+    align-items: center;
     gap: 10%;
     padding-bottom: 3%;
-    max-width: fit-content;
 }
 
+.name-image {
+    width: 500px;
+}
+
+.name-image2 {
+    width: 650px;
+}
 
 /* NavBar Section */
 
@@ -35,10 +43,10 @@
 .dropdown-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1rem;
     align-items: flex-end;
     padding-right: 3%;
-    margin-top: 10%;
+    margin-top: 16rem;
 }
 
 
@@ -58,8 +66,7 @@
     display: flex;
     padding: 3rem 6rem;
     justify-content: space-between;
-    box-sizing: border-box;
-    /* Includes padding in width calculation */
+    box-sizing: border-box; /* Includes padding in width calculation */
 
 }
 
@@ -67,22 +74,36 @@
 /* About Section */
 
 .about-section {
-    height: 100vh;
     display: flex;
     gap: 3rem;
     padding-top: 10rem;
+    align-items: stretch;
 }
 
 .contour-image {
-    padding-top: 60px;
-    height: 70%;
+    flex: 1; /* Allows the image to take 1 part of the available space */
+    max-width: 35%; /* Restricts the maximum width of the image */
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the entire space without distorting */
 }
 
+
 .about-paragraph {
+    flex: 2; /* Allows the paragraph to take 2 parts of the available space, making it wider than the image */
     font-family: Helvetica;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 2rem;
+    line-height: 1.5;
 }
+
+/* Media query for smaller laptop screens (1024px and below) */
+@media (max-width: 1024px) {
+    .about-paragraph {
+      font-size: 1rem; /* Decrease font size on smaller screens */
+    }
+  }
+  
+
 
 .column-photo {
     margin-bottom: 10%;
@@ -90,13 +111,16 @@
 
 .arrow-dropdown {
     position: absolute;
-    left: 50%;
+    left: 50%; /* Centers the arrow horizontally */
+    transform: translateX(-50%); /* Adjusts position to center the image */
 }
 
 .imageURL {
     position: absolute;
     bottom: 80%;
-    left: 5%
+    left:50%;
+    transform: translateX(-50%); /* Adjusts position to center the image */
+    
 }
 
 /* ProjectsList Section */
@@ -105,7 +129,7 @@
     font-family: Helvetica;
     text-align: center;
     font-size: 100px;
-
+    padding-top:3rem;
 }
 
 #projectsId {
@@ -117,23 +141,26 @@
     justify-content: center;
     align-items: center;
     gap: 55px;
+    align-items: stretch; /* Ensures columns stretch to the same height */
 }
 
-.projects-column {
+.projects-column, .projects-column2 {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-}
+    justify-content: space-between; 
+    flex-grow: 1; /* Allows columns to grow and fill the available space equally */
+    gap: 2rem; 
+  }
 
-.image img{
-    width: 90%;
-    height: auto; 
-    
+
+.image img {
+    width: 92%;
+    height: auto;
 }
 
 .image {
     cursor: pointer;
-   
+
 }
 
 .image:hover {
@@ -222,6 +249,17 @@
     align-items: center;
     margin-top: 5rem;
 
+}
+
+.project-image{
+    width: 50%;
+    height:auto;
+
+}
+
+.project-image2{
+    width:35%;
+    height: auto;
 }
 
 /* BackToHome */

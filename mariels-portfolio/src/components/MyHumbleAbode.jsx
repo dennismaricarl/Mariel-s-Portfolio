@@ -33,15 +33,15 @@ const MyHumbleAbode = () => {
             </div>
 
            <div className="images-container">
-                <img src="/images/my humble abode/6 bayridge.png" alt="bayridge" />
+                <img className="project-image" src="/images/my humble abode/6 bayridge.png" alt="bayridge" />
 
                 <div style={{ display: 'inline-flex' }}>
-                    <img src="/images/my humble abode/7 entrance copy 2.png" alt="entrance" />
-                    <img src="/images/my humble abode/8 bedroom set up.png" alt="bedroom set up" />
+                    <img className="project-image2" src="/images/my humble abode/7 entrance copy 2.png" alt="entrance" />
+                    <img className="project-image" src="/images/my humble abode/8 bedroom set up.png" alt="bedroom set up" />
                 </div>
 
-                <img src="/images/my humble abode/9 study corner.png" alt="study corner" />
-                <img src="/images/my humble abode/10 kitchen.png" alt="kitchen" />
+                <img className="project-image" src="/images/my humble abode/9 study corner.png" alt="study corner" />
+                <img className="project-image" src="/images/my humble abode/10 kitchen.png" alt="kitchen" />
             </div>
 
             <img className="nextProject" onClick={() => navigate('/hyggeSeries')} src="/images/my humble abode/11 next.png" />

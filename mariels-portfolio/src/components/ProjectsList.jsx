@@ -5,7 +5,7 @@ const ProjectsList = () => {
 
 
     const images = [
-        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path: "/localCoffeeShops", marginLeft: '-5rem' },
+        { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path: "/localCoffeeShops", marginLeft: '-3rem' },
         { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path: "/offsetCoffee" },
         { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series", path: "/hyggeSeries" },
         { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural", path: "/siamThai" },

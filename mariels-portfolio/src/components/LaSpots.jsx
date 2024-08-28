@@ -32,12 +32,12 @@ const LaSpots = () => {
             </div>
 
             <div className="images-container">
-                <img src="/images/la spots/6 map_.png" alt="map" />
-                <img src="/images/la spots/7 vectors.png" alt="vectors" />
+                <img className="project-image" src="/images/la spots/6 map_.png" alt="map" />
+                <img className="project-image" src="/images/la spots/7 vectors.png" alt="vectors" />
 
                 <div style={{ display: 'inline-flex' }}>
-                    <img src="/images/la spots/brocure 1.png" alt="brochure 1" />
-                    <img src="/images/la spots/brochure 2.png" alt="brochure 2" />
+                    <img className="project-image" src="/images/la spots/brocure 1.png" alt="brochure 1" />
+                    <img className="project-image" src="/images/la spots/brochure 2.png" alt="brochure 2" />
                 </div>
 
                 <div style={{ display: 'inline-flex' }}>
@@ -45,7 +45,7 @@ const LaSpots = () => {
                     <img src="/images/la spots/back mock.png" alt="back mock" />
                 </div>
 
-                <img src="/images/la spots/8 magazine.png" alt="magazine" />
+                <img className="project-image" src="/images/la spots/8 magazine.png" alt="magazine" />
             </div>
 
             <img className="nextProject" onClick={() => navigate('/siamThai')} src="/images/la spots/next.png" />

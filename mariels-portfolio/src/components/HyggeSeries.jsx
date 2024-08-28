@@ -33,14 +33,14 @@ const HyggeSeries = () => {
             </div>
 
             <div className="images-container" >
-                <img style={{ marginTop: '-12%' }} src="/images/hygge series/6 lets get together.png" alt="let's get together" />
-                <img src="/images/hygge series/7 mock mural.png" alt="mock mural" />
-                <img src="/images/hygge series/8 celebrate.png" alt="celebrate" />
-                <img src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />
-                <img src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
+                <img className="project-image" style={{ marginTop: '-12%' }} src="/images/hygge series/6 lets get together.png" alt="let's get together" />
+                <img className="project-image" src="/images/hygge series/7 mock mural.png" alt="mock mural" />
+                <img className="project-image" src="/images/hygge series/8 celebrate.png" alt="celebrate" />
+                <img className="project-image" src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />
+                <img className="project-image" src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
             </div>
 
-            <img className="nextProject" onClick={() => navigate('/spaces')} src="/images/hygge series/next.png" alt="hygge series - next arrow"/>
+            <img className="nextProject" onClick={() => navigate('/spaces')} src="/images/hygge series/next.png" alt="hygge series - next arrow" />
         </>
     )
 

@@ -38,14 +38,14 @@ const Spaces = () => {
             </div>
 
             <div className="images-container">
-                <img src="/images/spaces/6 nook.png" alt="nook" />
-                <img src="/images/spaces/6 nook sketch.png" alt="nook sketch" />
-                <img src="/images/spaces/7 coffee parlor.png" alt="coffee parlor" />
-                <img src="/images/spaces/7 coffee parlor sketch.png" alt="coffee parlor sketch" />
-                <img src="/images/spaces/8 avatar.png" alt="avatar" />
-                <img src="/images/spaces/8 avatar sketch.png" alt="avatar sketch" />
-                <img src="/images/spaces/9 black ring.png" alt="black ring" />
-                <img src="/images/spaces/10 black ring sketch.png" alt="black ring sketch" />
+                <img className="project-image" src="/images/spaces/6 nook.png" alt="nook" />
+                <img className="project-image" src="/images/spaces/6 nook sketch.png" alt="nook sketch" />
+                <img className="project-image" src="/images/spaces/7 coffee parlor.png" alt="coffee parlor" />
+                <img className="project-image" src="/images/spaces/7 coffee parlor sketch.png" alt="coffee parlor sketch" />
+                <img className="project-image" src="/images/spaces/8 avatar.png" alt="avatar" />
+                <img className="project-image" src="/images/spaces/8 avatar sketch.png" alt="avatar sketch" />
+                <img className="project-image" src="/images/spaces/9 black ring.png" alt="black ring" />
+                <img className="project-image" src="/images/spaces/10 black ring sketch.png" alt="black ring sketch" />
             </div>
 
             <img className="nextProject" onClick={() => navigate('/siamThai')} src="/images/spaces/next.png" />
