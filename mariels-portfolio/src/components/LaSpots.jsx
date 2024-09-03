@@ -36,8 +36,8 @@ const LaSpots = () => {
                 <img className="project-image" src="/images/la spots/7 vectors.png" alt="vectors" />
 
                 <div style={{ display: 'inline-flex' }}>
-                    <img className="project-image" src="/images/la spots/brocure 1.png" alt="brochure 1" />
-                    <img className="project-image" src="/images/la spots/brochure 2.png" alt="brochure 2" />
+                    <img className="project-image2" src="/images/la spots/brocure 1.png" alt="brochure 1" />
+                    <img className="project-image2" src="/images/la spots/brochure 2.png" alt="brochure 2" />
                 </div>
 
                 <div style={{ display: 'inline-flex' }}>
