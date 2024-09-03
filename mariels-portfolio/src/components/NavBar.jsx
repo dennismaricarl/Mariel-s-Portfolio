@@ -28,7 +28,8 @@ const NavBar = () => {
             <BackToHome />
                 <div>
                     <img
-                        className="dropdown"
+                        className={toggle ? "x-icon" : "lines-dropdown"
+                        }
                         onClick={handleClick}
                         src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
                         alt="menu-icon" />

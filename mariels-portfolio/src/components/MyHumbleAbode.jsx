@@ -37,7 +37,7 @@ const MyHumbleAbode = () => {
 
                 <div style={{ display: 'inline-flex' }}>
                     <img className="project-image2" src="/images/my humble abode/7 entrance copy 2.png" alt="entrance" />
-                    <img className="project-image" src="/images/my humble abode/8 bedroom set up.png" alt="bedroom set up" />
+                    <img className="project-image2" src="/images/my humble abode/8 bedroom set up.png" alt="bedroom set up" />
                 </div>
 
                 <img className="project-image" src="/images/my humble abode/9 study corner.png" alt="study corner" />

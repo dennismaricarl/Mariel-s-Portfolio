@@ -9,8 +9,8 @@ const BackToHome = () => {
 
         <div className="backToHome" onClick={() => navigate('/') || window.scroll(0,0)}
         style={{ 
-            width: '80px',
-            height: '80px',
+            width: '60px',
+            height: '60px',
             backgroundColor: 'black',
             borderRadius: '50%',
            }}>
