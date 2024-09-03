@@ -5,15 +5,11 @@ import { useNavigate } from "react-router-dom";
 const BackToHome = () => {
     const navigate = useNavigate()
 
-    return(
+    return (
 
-        <div className="backToHome" onClick={() => navigate('/') || window.scroll(0,0)}
-        style={{ 
-            width: '60px',
-            height: '60px',
-            backgroundColor: 'black',
-            borderRadius: '50%',
-           }}>
+        <div className="w-16 h-16 rounded-full bg-black hover:scale-105"
+            onClick={() => navigate('/') || window.scroll(0, 0)}>
+
         </div>
     )
 }

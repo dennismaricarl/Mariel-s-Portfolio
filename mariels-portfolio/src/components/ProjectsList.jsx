@@ -14,9 +14,14 @@ const ProjectsList = () => {
         { image: "/images/projects/7 LA spots image.png", title: "LA Spots", path: "/laSpots", titleMarginLeft: '2rem' }
     ];
 
+    
+        mainContainer = "h-screen"
+        
+    
+
     return (
-        <div id="projectsListId">
-            <h1 className="title">PROJECTS</h1>
+        <div id="projectsListId" className="h-screen">
+            <h1 className="text-6xl text-center pt-12 font-[Helvetica]">PROJECTS</h1>
 
             <div className="projects-container">
                 <div className="projects-column">

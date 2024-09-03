@@ -24,12 +24,12 @@ const HomePage = () => {
 
 
     return (
-        <div className="homepage-container">
+        <div className="flex flex-col items-center justify-center">
 
-            <div className="full-name-container">
-                <div className="full-name">
-                    <img className="name-image" src="/images/mariel.png" alt="Mariel" />
-                    <img className="name-image2" src="/images/trujillo.png" alt="Trujillo" />
+            <div className="flex flex-col justify-end h-screen">
+                <div className="flex items-center gap-[10%] pb-[3%]">
+                    <img className="w-[40rem]" src="/images/mariel.png" alt="Mariel" />
+                    <img className="w=[40rem]" src="/images/trujillo.png" alt="Trujillo" />
                 </div>
             </div>
 
