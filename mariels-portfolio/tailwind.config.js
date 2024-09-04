@@ -2,7 +2,10 @@
 module.exports = {
     content: ["./src/**/*.{html,js,jsx}"],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily:{
+          helvetica: ['Helvetica', 'Arial', 'sans-serif'],}
+      },
     },
     plugins: [],
   }

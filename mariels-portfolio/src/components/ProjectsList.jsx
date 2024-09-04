@@ -14,40 +14,44 @@ const ProjectsList = () => {
         { image: "/images/projects/7 LA spots image.png", title: "LA Spots", path: "/laSpots", titleMarginLeft: '2rem' }
     ];
 
-    
-        mainContainer = "h-screen"
-        
-    
+
+    const mainTitle = "text-7xl text-center pt-20 pb-20 font-Helvetica font-extrabold"
+    const projectsContainer = "flex justify-center items-stretch gap-x-10"
+    const projectColumn = "flex flex-col justify-between flex-grow gap-y-20"
+    const image = "w-[92%] h-auto cursor-pointer hover:scale-110 "
+    const imageTitle = "text-2xl font-Helvetica font-extrabold mt-10"
+
+
 
     return (
-        <div id="projectsListId" className="h-screen">
-            <h1 className="text-6xl text-center pt-12 font-[Helvetica]">PROJECTS</h1>
+        <div id="projectsListId">
+            <p className={mainTitle}>PROJECTS</p>
 
-            <div className="projects-container">
-                <div className="projects-column">
+            <div className={projectsContainer}>
+                <div className={projectColumn}>
                     {images.slice(0, 4).map((img, i) => (
-                        <div className="image" key={i} >
+                        <div className={image} key={i} >
                             <img
                                 style={{ marginLeft: img.marginLeft }}
                                 onClick={() => navigate(img.path)}
                                 src={img.image}
                                 alt={img.title}
                             />
-                            <h2 className="image-title">{img.title}</h2>
+                            <p className={imageTitle}>{img.title}</p>
                         </div>
                     ))}
                 </div>
 
-                <div className="projects-column">
+                <div className={projectColumn}>
                     {images.slice(4).map((img, i) => (
-                        <div className="image" key={i}>
+                        <div className={image} key={i}>
                             <img
                                 onClick={() => navigate(img.path)}
                                 src={img.image}
 
                                 alt={img.title}
                             />
-                            <h2 className="image-title" style={{ marginLeft: img.titleMarginLeft }}>{img.title}</h2>
+                            <p className={imageTitle} style={{ marginLeft: img.titleMarginLeft }}>{img.title}</p>
                         </div>
                     ))}
                 </div>
