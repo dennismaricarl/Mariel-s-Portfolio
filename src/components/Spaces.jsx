@@ -33,11 +33,11 @@ const Spaces = () => {
                         </p>
 
                         <div className="inline-flex gap-3 mt-5">
-                            <span className="w-8 h-8 bg-black rounded-full"></span>
-                            <span className="w-8 h-8 bg-orange-500 rounded-full"></span>
-                            <span className="w-8 h-8 bg-blue-500 rounded-full"></span>
-                            <span className="w-8 h-8 bg-black rounded-full"></span>
-                            <span className="w-8 h-8 bg-black rounded-full"></span>
+                            <span className="w-8 h-8 bg-[#c7a176] rounded-full"></span>
+                            <span className="w-8 h-8 bg-[#a1b2bc] rounded-full"></span>
+                            <span className="w-8 h-8 bg-[#fbf6e8] rounded-full"></span>
+                            <span className="w-8 h-8 bg-[#6a7782] rounded-full"></span>
+                            <span className="w-8 h-8 bg-[#eadbae] rounded-full"></span>
                         </div>
                     </div>
                 </div>
