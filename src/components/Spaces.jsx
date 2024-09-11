@@ -5,13 +5,13 @@ const Spaces = () => {
 
     return (
         <>
-            <div className="mx-8 my-16 mt-24 md:mx-16 md:my-24 md:mt-40 lg:mx-32 lg:my-34 lg:mt-60">
-                <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
-                    <div className="flex-1 lg:ml-32">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6">
+            <div className="mt-40 lg:mx-32 lg:my-34 lg:mt-60">
+                <div className="flex flex-col gap-10 m-10 lg:flex-row lg:gap-16 lg:ml-32">
+                    <div className="flex-1 ">
+                        <h1 className="font-helvetica text-xl lg:text-4xl font-semibold mb-4 lg:mb-6">
                             S P A C E S (coffee shop interiors)
                         </h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica lg:text-xl">
                             There is always something enthralling
                             about being in a well designed space. Like many folks all over the world, I admire
                             the interior of beautiful coffee shops, along with the smells and sounds of people going
@@ -22,13 +22,13 @@ const Spaces = () => {
                     </div>
 
                     <div className="flex-1">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6">
+                        <h1 className="font-helvetica text-xl lg:text-4xl font-semibold mb-4 lg:mb-6">
                             Project Details
                         </h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica lg:text-xl">
                             <strong>Brief:</strong> Sketchbook Time - draw beautiful interiors you enjoy
                         </p>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica lg:text-xl">
                             <strong>Tools:</strong> Paper, Pencil, Procreate
                         </p>
 
@@ -43,7 +43,7 @@ const Spaces = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-40 mt-20 items-center">
+            <div className="gap-10 flex flex-col lg:gap-40 mt-20 items-center">
                 <img className="w-5/12 h-auto" src="/images/spaces/6 nook.png" alt="nook" />
                 <img className="w-5/12 h-auto" src="/images/spaces/6 nook sketch.png" alt="nook sketch" />
                 <img className="w-5/12 h-auto" src="/images/spaces/7 coffee parlor.png" alt="coffee parlor" />

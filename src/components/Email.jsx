@@ -8,7 +8,7 @@ const Email = () => {
             </a>
 
             <a href="mailto:mrosales.tru@gmail.com" className="email-link">
-                <h1 className="text-3xl font-semibold mt-4 hover:opacity-50">mrosales.tru@gmail.com</h1>
+                <h1 className=" text-lg lg:text-3xl font-semibold mt-4 hover:opacity-50">mrosales.tru@gmail.com</h1>
             </a>
         </div>
     )

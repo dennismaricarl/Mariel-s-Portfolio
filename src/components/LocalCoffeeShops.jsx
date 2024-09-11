@@ -5,12 +5,12 @@ const LocalCoffeeShops = () => {
 
     return (
         <>
-            <div className="mt-24 lg:mx-32 lg:my-34 lg:mt-60">
-                <div className="flex flex-col lg:flex-row lg:gap-16 ml-32">
+            <div className="mt-40 lg:mx-32 lg:my-34 lg:mt-60">
+                <div className="flex flex-col gap-10 m-10 lg:flex-row lg:gap-16 lg:ml-32">
                           
                     <div className="flex-1">
-                        <p className="font-helvetica sm:text-2xl lg:text-3xl font-semibold mb-4 lg:mb-6">South Bay, CA Local Coffee Shops</p>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica text-xl lg:text-3xl font-semibold mb-4 lg:mb-6">South Bay, CA Local Coffee Shops</p>
+                        <p className="font-helvetica lg:text-xl">
                             I wanted to personally explore and showcase the local coffee shops in
                             my area through this doodle-like illustrated map :) It begun as an idea
                             that turned into hours of researching, sketching, and finally composing a
@@ -24,11 +24,11 @@ const LocalCoffeeShops = () => {
                     </div>
 
                     <div className="flex-1">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold mb-4 lg:mb-6">Project Details</h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <h1 className="font-helvetica text-xl lg:text-3xl font-semibold mb-4 lg:mb-6">Project Details</h1>
+                        <p className="font-helvetica text-base lg:text-xl">
                             <strong>Brief:</strong> Passion-Project - showcase local coffee shops in your community.
                         </p>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica text-base lg:text-xl">
                             <strong>Tools:</strong> Paper, Pen, Procreate, Adobe Illustrator
                         </p>
 
@@ -44,14 +44,14 @@ const LocalCoffeeShops = () => {
                 </div>
 
                 <div className="flex flex-col gap-36 mt-10 items-center">
-                    <img className="w-5/12 h-auto" src="/images/coffee shops/6 MAP illustration.png" alt="Map illustration" />
+                    <img className="lg:w-5/12 lg:h-auto" src="/images/coffee shops/6 MAP illustration.png" alt="Map illustration" />
 
                     <div className="inline-flex items-center justify-center gap-8">
-                        <img className="w-72 h-auto" src="/images/coffee shops/7 keys.png" alt="Keys" />
-                        <img className="w-72 h-auto" src="/images/coffee shops/8 coffee design.png" alt="Coffee design" />
+                        <img className="w-40 lg:w-72 lg:h-auto" src="/images/coffee shops/7 keys.png" alt="Keys" />
+                        <img className="w-40 lg:w-72 lg:h-auto" src="/images/coffee shops/8 coffee design.png" alt="Coffee design" />
                     </div>
 
-                    <img className="w-5/12 h-auto" src="/images/coffee shops/9 typography.png" alt="Typography" />
+                    <img className="lg:w-5/12 lg:h-auto" src="/images/coffee shops/9 typography.png" alt="Typography" />
                 </div>
 
                 <img

@@ -5,19 +5,19 @@ const HyggeSeries = () => {
 
     return (
         <>
-            <div className="mx-8 my-16 mt-24 md:mx-16 md:my-24 md:mt-40 lg:mx-32 lg:my-34 lg:mt-60">
-                <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
-                    <div className="flex-1 lg:ml-32">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-5">Hygge Series</h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-xl lg:text-2xl">
+            <div className="mt-40 lg:mx-32 lg:my-34 lg:mt-60">
+                <div className="flex flex-col gap-10 m-10 lg:flex-row lg:gap-16 lg:ml-32">
+                    <div className="flex-1">
+                        <h1 className="font-helvetica text-xl lg:text-3xl font-semibold mb-4 lg:mb-5">Hygge Series</h1>
+                        <p className="font-helvetica lg:text-xl">
                             The inspiration behind these illustrations is the philosophy and lifestyle of hygge ("hoo-ga"), characteristic of the Danish culture, in which one takes the time to slow down and enjoy the simple pleasures of life. To me, hygge is spending time with the people I love and enjoying hours soaking in the summer sun.
                         </p>
                     </div>
 
                     <div className="flex-1">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-5">Project Details</h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-xl lg:text-2xl"><strong>Brief:</strong> Passion Project - draw your hygge experiences.</p>
-                        <p className="font-helvetica text-base sm:text-lg md:text-xl lg:text-2xl"><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
+                        <h1 className="font-helvetica text-xl lg:text-4xl font-semibold mb-4 lg:mb-5">Project Details</h1>
+                        <p className="font-helvetica lg:text-2xl"><strong>Brief:</strong> Passion Project - draw your hygge experiences.</p>
+                        <p className="font-helvetica lg:text-2xl"><strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop</p>
 
                         <div className="inline-flex gap-2 sm:gap-3 mt-4 lg:mt-5">
                             <div className="w-8 h-8 bg-black rounded-full"></div>
@@ -28,8 +28,8 @@ const HyggeSeries = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-36 mt-10 items-center">
-                <img className="w-5/12 h-auto mt-[-10rem]" src="/images/hygge series/6 lets get together.png" alt="let's get together" />
+            <div className="gap-12 flex flex-col lg:gap-36 mt-10 items-center">
+                <img className="w-5/12 h-auto lg:mt-[-5rem]" src="/images/hygge series/6 lets get together.png" alt="let's get together" />
                 <img className="w-5/12 h-auto" src="/images/hygge series/7 mock mural.png" alt="mock mural" />
                 <img className="w-5/12 h-auto" src="/images/hygge series/8 celebrate.png" alt="celebrate" />
                 <img className="w-5/12 h-auto" src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />

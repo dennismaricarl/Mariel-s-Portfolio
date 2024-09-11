@@ -15,11 +15,11 @@ const ProjectsList = () => {
     ];
 
 
-    const mainTitle = "text-7xl text-center pt-20 pb-20 font-Helvetica font-extrabold"
+    const mainTitle = "text-4xl lg:text-7xl text-center pt-20 pb-20 font-Helvetica font-extrabold"
     const projectsContainer = "flex justify-center items-stretch gap-x-10 ml-80 mr-80"
-    const projectColumn = "flex flex-col justify-between flex-grow gap-y-20"
-    const image = "w-[92%] h-auto cursor-pointer hover:scale-110 "
-    const imageTitle = "text-2xl font-Helvetica font-extrabold mt-10"
+    const projectColumn = "gap-y-10 flex flex-col justify-between flex-grow lg:gap-y-20"
+    const image = "w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 "
+    const imageTitle = "text-[15px] mt-3 lg:text-2xl font-Helvetica font-extrabold lg:mt-10"
 
 
 

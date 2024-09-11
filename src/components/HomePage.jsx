@@ -27,9 +27,9 @@ const HomePage = () => {
         <div className="flex flex-col items-center justify-center ">
 
             <div className="flex flex-col justify-end h-screen pb-4">
-                <div className="flex justify-center gap-20 mb-10">
-                    <img className="w-[30rem]" src="/images/mariel.png" alt="Mariel" />
-                    <img className="w-[30rem]" src="/images/trujillo.png" alt="Trujillo" />
+                <div className="gap-10 flex justify-center lg:gap-20 mb-10">
+                    <img className="w-36 lg:w-[30rem]" src="/images/mariel.png" alt="Mariel" />
+                    <img className="w-36 lg:w-[30rem]" src="/images/trujillo.png" alt="Trujillo" />
                 </div>
             </div>
 

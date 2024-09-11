@@ -11,7 +11,7 @@ const BackToHome = () => {
 
     return (
 
-        <div className="cursor-pointer w-16 h-16 rounded-full bg-black hover:scale-105"
+        <div className="w-10 h-10 cursor-pointer lg:w-16 lg:h-16 rounded-full bg-black hover:scale-105"
             onClick={handleClick}>
 
         </div>

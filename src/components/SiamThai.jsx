@@ -5,11 +5,11 @@ const SiamThai = () => {
 
     return (
         <>
-            <div className="mx-8 my-16 mt-24 md:mx-16 md:my-24 md:mt-40 lg:mx-32 lg:my-34 lg:mt-60">
-                <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
-                    <div className="flex-1 lg:ml-32">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6">Siam Thai Station Mural</h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+            <div className="mt-40 lg:mx-32 lg:my-34 lg:mt-60">
+                <div className="flex flex-col gap-10 m-10 lg:flex-row lg:gap-16 lg:ml-32">
+                    <div className="flex-1">
+                        <h1 className="font-helvetica text-xl lg:text-4xl font-semibold mb-4 lg:mb-6">Siam Thai Station Mural</h1>
+                        <p className="font-helvetica lg:text-xl">
                             Proposed black and white line art mural for a Thai restaurant.
                             The theme here is community expressed through businesses and activities around the city
                             mixed with Thailand culture and its emblems to represent the restaurant's - and really the
@@ -19,11 +19,11 @@ const SiamThai = () => {
                     </div>
 
                     <div className="flex-1">
-                        <h1 className="font-helvetica text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 lg:mb-6">Project Details</h1>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <h1 className="font-helvetica text-xl  lg:text-4xl font-semibold mb-4 lg:mb-6">Project Details</h1>
+                        <p className="font-helvetica lg:text-xl">
                             <strong>Brief:</strong> Create a community-inspired mural for Thai restaurant, Siam Station
                         </p>
-                        <p className="font-helvetica text-base sm:text-lg md:text-lg lg:text-xl">
+                        <p className="font-helvetica lg:text-xl">
                             <strong>Tools:</strong> Paper, Pencil, Procreate, Illustrator, Photoshop
                         </p>
 
@@ -35,7 +35,7 @@ const SiamThai = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-36 mt-20 items-center">
+            <div className="gap-16 flex flex-col lg:gap-36 mt-20 items-center">
                 <img className="w-5/12 h-auto" src="/images/siam station/6 Siam Thai Mural Vector.png" alt="Siam Thai Mural Vector" />
                 <img className="w-5/12 h-auto" src="/images/siam station/7 resto mock up.png" alt="resto mock up" />
                 <img className="w-5/12 h-auto" src="/images/siam station/8 Mural Process.png" alt="Mural Process" />

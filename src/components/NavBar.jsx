@@ -23,12 +23,12 @@ const NavBar = () => {
     return (
         <div>
 
-            <div className="fixed top-0 left-0 w-full z-[1000] bg-white flex p-[3rem] pl-[6rem] pr-[6rem] justify-between box-border">
+            <div className="fixed space-x-60 top-0 left-0 lg:w-full z-[1000] bg-white flex p-[3rem] lg:pl-[6rem] lg:pr-[6rem] justify-between box-border">
 
                 <BackToHome />
                 <div>
                     <img
-                        className={toggle ? "w-[4rem hover:scale-110" : "w-[5rem] hover:scale-110"}
+                        className={toggle ? "w-[3rem] lg:w-[4rem] hover:scale-110" : "w-[3rem] lg:w-[5rem] hover:scale-110"}
 
                         onClick={handleClick}
                         src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
