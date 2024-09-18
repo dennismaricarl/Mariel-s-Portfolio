@@ -24,9 +24,9 @@ const HomePage = () => {
 
 
     return (
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center overflow-x-hidden">
 
-            <div className="flex flex-col justify-end h-screen pb-4">
+            <div className="flex flex-col justify-end h-screen pb-4 ">
                 <div className="gap-10 flex justify-center lg:gap-20 mb-10">
                     <img className="w-36 lg:w-[30rem]" src="/images/mariel.png" alt="Mariel" />
                     <img className="w-36 lg:w-[30rem]" src="/images/trujillo.png" alt="Trujillo" />

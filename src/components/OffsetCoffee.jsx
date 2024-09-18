@@ -31,7 +31,7 @@ const OffsetCoffee = () => {
                             <span className="w-8 h-8 rounded-full bg-[#ceaa7c]"></span>
                             <span className="w-8 h-8 rounded-full bg-[#a06a2f]"></span>
                             <span className="w-8 h-8 rounded-full bg-[#92be9c]"></span>
-                            <span className="w-8 h-8 rounded-full bg-[#fff5eb] border border-black"></span>
+                            <span className="w-8 h-8 rounded-full bg-[#fff5eb]"></span>
                         </div>
                     </div>
                 </div>

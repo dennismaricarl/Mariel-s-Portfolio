@@ -2,7 +2,7 @@ const Email = () => {
     return (
         <div id="emailId" className="justify-center items-center flex flex-col h-screen">
             <a href="mailto:mrosales.tru@gmail.com">
-                <img className="hover:opacity-25" 
+                <img className="hover:opacity-25 w-40 lg:w-80" 
                 src="/images/Envelope.png" 
                 />
             </a>

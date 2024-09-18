@@ -28,7 +28,7 @@ const NavBar = () => {
                 <BackToHome />
                 <div>
                     <img
-                        className={toggle ? "w-[3rem] lg:w-[4rem] hover:scale-110" : "w-[3rem] lg:w-[5rem] hover:scale-110"}
+                        className={toggle ? "w-[2rem] lg:w-[4rem] hover:scale-110" : "w-[3rem] lg:w-[5rem] hover:scale-110"}
 
                         onClick={handleClick}
                         src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
@@ -39,19 +39,19 @@ const NavBar = () => {
 
             {toggle &&
 
-                <div className="flex flex-col gap-4 items-end pr-[3%] mt-[13rem]">
+                <div className="flex flex-col gap-4 items-end pr-[3rem] lg:pr-[5rem] mt-[9rem] lg:mt-[13rem]">
               
-                    <img className="hover:opacity-10"
+                    <img className="hover:opacity-10 w-32 lg:w-auto"
                         src="/images/ABOUT.png"
                         onClick={() => handleNavigateToHome("aboutId")}
                     />
 
-                    <img className="hover:opacity-10"
+                    <img className="hover:opacity-10 w-40 lg:w-auto"
                         src="/images/PROJECTS.png"
                         onClick={() => handleNavigateToHome("projectsListId")}
                     />
 
-                    <img className="hover:opacity-10"
+                    <img className="hover:opacity-10 w-32 lg:w-auto"
                         src="/images/Envelope.png"
                         onClick={() => handleNavigateToHome("emailId")}
                     />
