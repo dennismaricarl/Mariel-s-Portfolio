@@ -6,8 +6,8 @@ const ProjectsList = () => {
 
     const images = [
         { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path: "/localCoffeeShops", marginLeft: '-1rem' },
-        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path: "/offsetCoffee" , marginTop:"3rem"},
-        { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series", path: "/hyggeSeries" },
+        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path: "/offsetCoffee"},
+        { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series", path: "/hyggeSeries"},
         { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural", path: "/siamThai" },
         { image: "/images/projects/3 humble abode image.png", title: "My Humble Abode", path: "/myHumbleAbode", paddingTop:'6rem' },
         { image: "/images/projects/5 spaces image.png", title: "S P A C E S (coffee shop interiors)", path: "/spaces" },
@@ -28,7 +28,7 @@ const ProjectsList = () => {
             <div className="ml-5 lg:flex lg:gap-x-10 lg:ml-80 lg:mr-80">
                 <div className="lg:flex lg:flex-col justify-between">
                     {images.slice(0, 4).map((img, i) => (
-                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-8" key={i} >
+                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-10 lg:mt-4" key={i} >
                             <img
                                 style={{ marginLeft: img.marginLeft, marginTop:img.marginTop }}
                                 onClick={() => navigate(img.path)}
@@ -40,11 +40,11 @@ const ProjectsList = () => {
                     ))}
                 </div>
 
-                <div className="lg:flex lg:flex-col lg:gap-y-20 mt-[-5rem]">
+                <div className="mt-[-6rem] lg:flex lg:flex-col lg:gap-y-20 lg:mt-0 ">
                     {images.slice(4).map((img, i) => (
-                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-8" key={i}>
+                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-10" key={i}>
                             <img
-                                style={{paddingTop:img.paddingTop}}
+                                style={{paddingTop:img.paddingTop, marginTop:img.marginTop}}
                                 onClick={() => navigate(img.path)}
                                 src={img.image}
 
