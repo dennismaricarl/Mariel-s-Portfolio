@@ -53,8 +53,8 @@ const LaSpots = () => {
 
             <img
                 className="absolute right-0 p-24 cursor-pointer hover:opacity-50 transition-opacity duration-300 mt-12"
-                onClick={() => navigate('/siamThai')}
-                src="/images/la spots/next.png"
+                onClick={() => navigate('/offsetCoffee')}
+                src="/images/coffee shops/10 next.png"
                 alt="next project"
             />
         </>

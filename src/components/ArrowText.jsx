@@ -21,7 +21,7 @@ const ArrowText = ({ text, imageURL }) => {
             
                 <img
                     src={imageURL}
-                    className="absolute bottom-14 left-1/2 -translate-x-1/2 flex-shrink-0"
+                    className="absolute bottom-9 lg:bottom-14 left-1/2 -translate-x-1/2 flex-shrink-0"
                     alt="Hovered Image"
                 />
             }

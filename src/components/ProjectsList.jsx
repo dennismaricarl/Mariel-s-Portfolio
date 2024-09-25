@@ -6,7 +6,7 @@ const ProjectsList = () => {
 
     const images = [
         { image: "/images/projects/1 local coffes shops image.png", title: "South Bay, CA Local Coffee Shops Map", path: "/localCoffeeShops", marginLeft: '-1rem' },
-        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path: "/offsetCoffee" },
+        { image: "/images/projects/2 offset illustrationo.png", title: "Offset Coffee Merch Illustration", path: "/offsetCoffee" , marginTop:"3rem"},
         { image: "/images/projects/4 lets get tgether image Frame.png", title: "Hygge Series", path: "/hyggeSeries" },
         { image: "/images/projects/6 siam image.png", title: "Siam Thai Station Mural", path: "/siamThai" },
         { image: "/images/projects/3 humble abode image.png", title: "My Humble Abode", path: "/myHumbleAbode", paddingTop:'6rem' },
@@ -15,24 +15,22 @@ const ProjectsList = () => {
     ];
 
 
-    const mainTitle = "text-4xl lg:text-7xl text-center pb-10 pt-20 lg:pb-20 font-Helvetica font-extrabold"
-    const projectsContainer = "flex justify-center items-stretch gap-x-10 ml-80 mr-80"
-    const projectColumn = "gap-y-10 flex flex-col justify-between flex-grow lg:gap-y-20"
-    const image = "w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 "
+   
+
     const imageTitle = "text-[15px] mt-3 lg:text-2xl font-Helvetica font-extrabold lg:mt-10"
 
 
 
     return (
         <div id="projectsListId">
-            <p className={mainTitle}>PROJECTS</p>
+            <p className="text-4xl lg:text-7xl text-center lg:pb-10 pt-20 font-Helvetica font-extrabold">PROJECTS</p>
 
-            <div className={projectsContainer}>
-                <div className={projectColumn}>
+            <div className="ml-5 lg:flex lg:gap-x-10 lg:ml-80 lg:mr-80">
+                <div className="lg:flex lg:flex-col justify-between">
                     {images.slice(0, 4).map((img, i) => (
-                        <div className={image} key={i} >
+                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-8" key={i} >
                             <img
-                                style={{ marginLeft: img.marginLeft }}
+                                style={{ marginLeft: img.marginLeft, marginTop:img.marginTop }}
                                 onClick={() => navigate(img.path)}
                                 src={img.image}
                                 alt={img.title}
@@ -42,9 +40,9 @@ const ProjectsList = () => {
                     ))}
                 </div>
 
-                <div className={projectColumn}>
+                <div className="lg:flex lg:flex-col lg:gap-y-20 mt-[-5rem]">
                     {images.slice(4).map((img, i) => (
-                        <div className={image} key={i}>
+                        <div className="w-[10rem] lg:w-[92%] h-auto cursor-pointer hover:scale-110 mt-8" key={i}>
                             <img
                                 style={{paddingTop:img.paddingTop}}
                                 onClick={() => navigate(img.path)}
