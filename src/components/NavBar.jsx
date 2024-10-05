@@ -21,12 +21,12 @@ const NavBar = () => {
 
 
     return (
-        <div>
-
-            <div className="fixed space-x-48 lg:space-x-60 top-0 left-0 lg:w-full z-[1000] bg-white flex p-[3rem] lg:pl-[6rem] lg:pr-[6rem] justify-between box-border">
-
+        <div >
+      
+                <div className="fixed top-0 left-0 z-[1000] bg-white flex p-[3rem] lg:pl-[6rem] lg:pr-[6rem] w-full justify-between ">
+                 
                 <BackToHome />
-                <div>
+             
                     <img
                         className={toggle ? "w-[1.5rem] lg:w-[4rem] hover:scale-110" : "w-[2.5rem] lg:w-[5rem] hover:scale-110"}
 
@@ -34,7 +34,7 @@ const NavBar = () => {
                         src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
                         alt="menu-icon" />
                 </div>
-            </div>
+   
 
 
             {toggle &&

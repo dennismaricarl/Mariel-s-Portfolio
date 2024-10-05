@@ -44,14 +44,14 @@ const Spaces = () => {
             </div>
 
             <div className="gap-10 flex flex-col lg:gap-40 mt-20 items-center">
-                <img className="w-5/12 h-auto" src="/images/spaces/6 nook.png" alt="nook" />
-                <img className="w-5/12 h-auto" src="/images/spaces/6 nook sketch.png" alt="nook sketch" />
-                <img className="w-5/12 h-auto" src="/images/spaces/7 coffee parlor.png" alt="coffee parlor" />
-                <img className="w-5/12 h-auto" src="/images/spaces/7 coffee parlor sketch.png" alt="coffee parlor sketch" />
-                <img className="w-5/12 h-auto" src="/images/spaces/8 avatar.png" alt="avatar" />
-                <img className="w-5/12 h-auto" src="/images/spaces/8 avatar sketch.png" alt="avatar sketch" />
-                <img className="w-5/12 h-auto" src="/images/spaces/9 black ring.png" alt="black ring" />
-                <img className="w-5/12 h-auto" src="/images/spaces/10 black ring sketch.png" alt="black ring sketch" />
+                <img className="w-6/12 h-auto" src="/images/spaces/6 nook.png" alt="nook" />
+                <img className="w-6/12 h-auto" src="/images/spaces/6 nook sketch.png" alt="nook sketch" />
+                <img className="w-6/12 h-auto" src="/images/spaces/7 coffee parlor.png" alt="coffee parlor" />
+                <img className="w-6/12 h-auto" src="/images/spaces/7 coffee parlor sketch.png" alt="coffee parlor sketch" />
+                <img className="w-6/12 h-auto" src="/images/spaces/8 avatar.png" alt="avatar" />
+                <img className="w-6/12 h-auto" src="/images/spaces/8 avatar sketch.png" alt="avatar sketch" />
+                <img className="w-6/12 h-auto" src="/images/spaces/9 black ring.png" alt="black ring" />
+                <img className="w-6/12 h-auto" src="/images/spaces/10 black ring sketch.png" alt="black ring sketch" />
             </div>
 
             <img

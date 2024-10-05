@@ -35,12 +35,12 @@ const LaSpots = () => {
             </div>
 
             <div className="gap-16 flex flex-col lg:gap-40 mt-40 items-center justify-center">
-                <img className="w-80 lg:w-5/12 lg:h-auto" src="/images/la spots/6 map_.png" alt="map" />
-                <img className="w-80 lg:w-5/12 lg:h-auto" src="/images/la spots/7 vectors.png" alt="vectors" />
+                <img className="w-80 lg:w-6/12 lg:h-auto" src="/images/la spots/6 map_.png" alt="map" />
+                <img className="w-80 lg:w-6/12 lg:h-auto" src="/images/la spots/7 vectors.png" alt="vectors" />
 
                 <div className="inline-flex gap-4">
-                    <img className="w-40 lg:w-96 lg:h-96" src="/images/la spots/brocure 1.png" alt="brochure 1" />
-                    <img className="w-40 lg:w-96 lg:h-96" src="/images/la spots/brochure 2.png" alt="brochure 2" />
+                    <img className="w-40 lg:w-1/2 lg:h-96" src="/images/la spots/brocure 1.png" alt="brochure 1" />
+                    <img className="w-40 lg:w-1/2 lg:h-96" src="/images/la spots/brochure 2.png" alt="brochure 2" />
                 </div>
 
                 <div className="inline-flex gap-4">
@@ -48,7 +48,7 @@ const LaSpots = () => {
                     <img className="w-40 lg:w-1/2 lg:h-1/2" src="/images/la spots/back mock.png" alt="back mock" />
                 </div>
 
-                <img className="w-5/12 h-auto" src="/images/la spots/8 magazine.png" alt="magazine" />
+                <img className="w-6/12 h-auto" src="/images/la spots/8 magazine.png" alt="magazine" />
             </div>
 
             <img

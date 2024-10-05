@@ -36,9 +36,9 @@ const SiamThai = () => {
             </div>
 
             <div className="gap-16 flex flex-col lg:gap-36 mt-20 items-center">
-                <img className="w-5/12 h-auto" src="/images/siam station/6 Siam Thai Mural Vector.png" alt="Siam Thai Mural Vector" />
-                <img className="w-5/12 h-auto" src="/images/siam station/7 resto mock up.png" alt="resto mock up" />
-                <img className="w-5/12 h-auto" src="/images/siam station/8 Mural Process.png" alt="Mural Process" />
+                <img className="w-6/12 h-auto" src="/images/siam station/6 Siam Thai Mural Vector.png" alt="Siam Thai Mural Vector" />
+                <img className="w-6/12 h-auto" src="/images/siam station/7 resto mock up.png" alt="resto mock up" />
+                <img className="w-6/12 h-auto" src="/images/siam station/8 Mural Process.png" alt="Mural Process" />
             </div>
 
             <img

@@ -38,17 +38,17 @@ const OffsetCoffee = () => {
             </div>
 
             <div className="flex flex-col gap-36 mt-20 items-center">
-                <img className="w-64 lg:w-5/12 lg:h-auto" src="/images/offset/6 illustration.png" alt="offset illustration" />
+                <img className="w-80 lg:w-6/12 lg:h-auto" src="/images/offset/6 illustration.png" alt="offset illustration" />
 
                 <div className="flex lg:gap-40">
                     <img className="w-56 h-40 lg:w-60 lg:h-96" src="/images/offset/7 mug sun view.png" alt="mug sun view" />
                     <img className="w-56 h-40 lg:w-60 lg:h-96" src="/images/offset/7 mug front view.png" alt="mug front view" />
-                    <img className="w-56 h-40 lg:w-64 lg:h-96" src="/images/offset/7 mug side view.png" alt="mug side view" />
+                    <img className="w-60 h-40 lg:w-72 lg:h-96" src="/images/offset/7 mug side view.png" alt="mug side view" />
                 </div>
 
                 <div className="inline-flex">
-                    <img className="w-28 lg:w-96" src="/images/offset/8 shirt front.png" alt="Shirt front" />
-                    <img className="w-28 lg:w-96" src="/images/offset/8 shirt back.png" alt="Shirt back" />
+                    <img className="w-44 lg:w-96" src="/images/offset/8 shirt front.png" alt="Shirt front" />
+                    <img className="w-44 lg:w-96" src="/images/offset/8 shirt back.png" alt="Shirt back" />
                 </div>
 
                 <p className="mt-[-9rem] lg:ml-[34rem]">photo credits to @kyle.braaten</p>

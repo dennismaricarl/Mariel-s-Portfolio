@@ -29,11 +29,11 @@ const HyggeSeries = () => {
             </div>
 
             <div className="gap-12 flex flex-col lg:gap-36 mt-10 items-center">
-                <img className="w-5/12 h-auto lg:mt-[-5rem]" src="/images/hygge series/6 lets get together.png" alt="let's get together" />
-                <img className="w-5/12 h-auto" src="/images/hygge series/7 mock mural.png" alt="mock mural" />
-                <img className="w-5/12 h-auto" src="/images/hygge series/8 celebrate.png" alt="celebrate" />
-                <img className="w-5/12 h-auto" src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />
-                <img className="w-5/12 h-auto" src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
+                <img className="w-6/12 h-auto lg:mt-[-5rem]" src="/images/hygge series/6 lets get together.png" alt="let's get together" />
+                <img className="w-6/12 h-auto" src="/images/hygge series/7 mock mural.png" alt="mock mural" />
+                <img className="w-6/12 h-auto" src="/images/hygge series/8 celebrate.png" alt="celebrate" />
+                <img className="w-6/12 h-auto" src="/images/hygge series/9 lets get coffee.png" alt="let's get coffee" />
+                <img className="w-6/12 h-auto" src="/images/hygge series/10 sunkissed.png" alt="sunkissed" />
             </div>
 
             <img
