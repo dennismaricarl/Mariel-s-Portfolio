@@ -22,39 +22,36 @@ const NavBar = () => {
 
     return (
         <div >
-      
-                <div className="fixed top-0 left-0 z-[1000] bg-white flex p-[3rem] lg:pl-[6rem] lg:pr-[6rem] w-full justify-between ">
-                 
-                <BackToHome />
-             
-                    <img
-                        className={toggle ? "w-[1.5rem] lg:w-[4rem] hover:scale-110" : "w-[2.5rem] lg:w-[5rem] hover:scale-110"}
 
-                        onClick={handleClick}
-                        src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
-                        alt="menu-icon" />
-                </div>
-   
+            <div className="fixed top-0 left-0 z-[1000] bg-white flex p-[3rem] lg:pl-[6rem] lg:pr-[6rem] w-full justify-between ">
+
+                <BackToHome />
+
+                <img
+                    className={toggle ? "w-[1.5rem] lg:w-[4rem] hover:scale-110" : "w-[2.5rem] lg:w-[5rem] hover:scale-110"}
+
+                    onClick={handleClick}
+                    src={toggle ? "/images/X.png" : "/images/3 lines dropdown.png"}
+                    alt="menu-icon" />
+            </div>
+
 
 
             {toggle &&
 
                 <div className="flex flex-col gap-4 items-end pr-[3rem] lg:pr-[5rem] mt-[9rem] lg:mt-[13rem]">
-              
-                    <img className="hover:opacity-10 w-32 lg:w-auto"
-                        src="/images/ABOUT.png"
-                        onClick={() => handleNavigateToHome("aboutId")}
-                    />
 
-                    <img className="hover:opacity-10 w-40 lg:w-auto"
-                        src="/images/PROJECTS.png"
-                        onClick={() => handleNavigateToHome("projectsListId")}
-                    />
+
+                    <h1 onClick={() => handleNavigateToHome("aboutId")} className="hover:opacity-10 text-9xl font-thin font-serif lg:w-auto">ABOUT</h1>
+                    <h1 onClick={() => handleNavigateToHome("projectsListId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">PROJECTS</h1>
+
+                    <h1 onClick={() => handleNavigateToHome("etsyId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">ETSY</h1>
 
                     <img className="hover:opacity-10 w-32 lg:w-auto"
                         src="/images/Envelope.png"
                         onClick={() => handleNavigateToHome("emailId")}
                     />
+
 
 
                 </div>

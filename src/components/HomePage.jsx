@@ -4,6 +4,7 @@ import { scroller } from "react-scroll";
 import About from "./About";
 import ProjectsList from "./ProjectsList";
 import Email from "./Email";
+import Etsy from "./Etsy";
 
 
 const HomePage = () => {
@@ -36,6 +37,7 @@ const HomePage = () => {
             <About />
             <ProjectsList/>
             <Email />
+            <Etsy/>
 
         </div>
 
