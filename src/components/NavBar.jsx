@@ -42,10 +42,10 @@ const NavBar = () => {
                 <div className="flex flex-col gap-4 items-end pr-[3rem] lg:pr-[5rem] mt-[9rem] lg:mt-[13rem]">
 
 
-                    <h1 onClick={() => handleNavigateToHome("aboutId")} className="hover:opacity-10 text-9xl font-thin font-serif lg:w-auto">ABOUT</h1>
-                    <h1 onClick={() => handleNavigateToHome("projectsListId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">PROJECTS</h1>
+                    <h1 onClick={() => handleNavigateToHome("aboutId")} className="hover:opacity-10 text-9xl font-thin font-serif lg:w-auto">About</h1>
+                    <h1 onClick={() => handleNavigateToHome("projectsListId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">Projects</h1>
 
-                    <h1 onClick={() => handleNavigateToHome("etsyId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">ETSY</h1>
+                    <h1 onClick={() => handleNavigateToHome("etsyId")} className="hover:opacity-10 text-9xl font-serif font-thin lg:w-auto">Etsy</h1>
 
                     <img className="hover:opacity-10 w-32 lg:w-auto"
                         src="/images/Envelope.png"
